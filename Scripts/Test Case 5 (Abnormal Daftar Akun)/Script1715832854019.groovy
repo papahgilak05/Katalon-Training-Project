@@ -33,6 +33,6 @@ WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/a_Daftar'))
 //-------------------------- Masuk Kedalam --------------------------//
 
 WebUI.setText(findTestObject('Object Repository/Page_Metrodata Academy/input_name'), 'Btari Putri' )
-WebUI.setText(findTestObject('Object Repository/Page_Metrodata Academy/input_email'), 'Btari Putri' )
-
+WebUI.setText(findTestObject('Object Repository/Page_Metrodata Academy/input_email'), '' )
+WebUI.setText(findTestObject('Object Repository/Page_Metrodata Academy/input_email'), '' )
 
