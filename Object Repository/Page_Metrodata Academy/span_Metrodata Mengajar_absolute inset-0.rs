@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>48bc76bc-a87a-498d-824d-fe8874a0ac85</webElementGuid>
+      <webElementGuid>d7434bde-c907-4ed5-bde8-d60c1846d30c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>absolute inset-0</value>
-      <webElementGuid>02ffed90-0668-4298-9d2f-bd8d0395d74c</webElementGuid>
+      <webElementGuid>72640706-b72c-4771-86d5-781f5874e655</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,15 +45,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[1]/header[@class=&quot;fixed top-0 left-0 right-0 z-10 bg-gradient-to-r from-white/40 to-white/20 sm:z-40 drop-shadow-lg backdrop-blur-lg&quot;]/nav[@class=&quot;flex items-center justify-between lg:px-[108px] xl:py-2 xl:h-[92px] py-6 px-8 xl:justify-center&quot;]/div[@class=&quot;items-center justify-center hidden mx-auto xl:flex xl:gap-x-5&quot;]/div[@class=&quot;flex flex-row gap-x-5&quot;]/div[@class=&quot;flex gap-x-5 group&quot;]/div[1]/div[2]/div[@class=&quot;absolute inset-x-0 top-0 bg-white shadow-lg -z-10 pt-9 ring-1 ring-gray-900/5 hidden group-hover:md:block hover:md:block&quot;]/div[@class=&quot;border-t-[1px] border-black/10 mt-14&quot;]/div[@class=&quot;flex flex-row justify-around px-20 py-10 max-w-7xl lg:px-[108px]&quot;]/div[@class=&quot;flex flex-wrap w-2/3&quot;]/div[@class=&quot;relative w-1/2 p-4 mb-4 -mt-4 text-sm leading-[17.5px] rounded-lg hover:bg-gray-50&quot;]/div[@class=&quot;flex flex-row&quot;]/div[@class=&quot;w-4/5 pl-4&quot;]/a[@class=&quot;block text-base font-semibold leading-5 text-gray-900 group-hover:hover:text-cerulean-600 group-hover:text-black&quot;]/span[@class=&quot;absolute inset-0&quot;]</value>
-      <webElementGuid>460948d8-3249-430a-85ca-927e96619e77</webElementGuid>
+      <webElementGuid>5fd0d33f-1d07-4495-a5fe-a37e24777503</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/header/nav/div[3]/div/div/div/div[2]/div/div/div/div[2]/div[4]/div/div[2]/a/span</value>
-      <webElementGuid>257ac547-6ce4-499a-842c-a0f80a166aa8</webElementGuid>
+      <webElementGuid>2d859cb9-ecc1-47bd-a914-5b89ea869b9d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,6 +61,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div[2]/a/span</value>
-      <webElementGuid>b74b604a-6fd2-44a3-a763-17d674433784</webElementGuid>
+      <webElementGuid>811fbf5b-32cb-4f14-bf6a-d333dcf191b9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

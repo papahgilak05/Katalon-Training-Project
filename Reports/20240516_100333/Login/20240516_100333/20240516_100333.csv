@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 124.0.0.0,,,16-05-2024 10:03:39,16-05-2024 10:05:13,1m - 34.115s,PASSED
+,,,,,,,
+Test Cases/Test Case 1 (Normal Login),Chrome 124.0.0.0,,,16-05-2024 10:03:39,16-05-2024 10:05:13,1m - 33.770s,PASSED
+"openBrowser("""")",Chrome 124.0.0.0,,,16-05-2024 10:03:40,16-05-2024 10:03:42,2.624s,PASSED
+maximizeWindow(),Chrome 124.0.0.0,,,16-05-2024 10:03:42,16-05-2024 10:03:42,0.231s,PASSED
+"navigateToUrl(""https://metrodataacademy.id/"")",Chrome 124.0.0.0,,,16-05-2024 10:03:42,16-05-2024 10:03:45,2.503s,PASSED
+takeScreenshot(),Chrome 124.0.0.0,Berhasil Membuka Website Metrodata Academy,,16-05-2024 10:03:45,16-05-2024 10:03:50,4.578s,PASSED
+"click(findTestObject(""Object Repository/Page_Metrodata Academy/a_Masuk""))",Chrome 124.0.0.0,,,16-05-2024 10:03:50,16-05-2024 10:04:22,32.240s,PASSED
+"setText(findTestObject(""Object Repository/Page_Metrodata Academy/input__email""), ""papahgilak@gmail.com"")",Chrome 124.0.0.0,,,16-05-2024 10:04:22,16-05-2024 10:04:23,0.736s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Metrodata Academy/input__password""), ""ANgLrNN9LeX238E+iUxpGw=="")",Chrome 124.0.0.0,,,16-05-2024 10:04:23,16-05-2024 10:04:23,0.513s,PASSED
+"click(findTestObject(""Object Repository/Page_Metrodata Academy/button_Masuk""))",Chrome 124.0.0.0,,,16-05-2024 10:04:23,16-05-2024 10:04:23,0.349s,PASSED
+delay(10),Chrome 124.0.0.0,,,16-05-2024 10:04:23,16-05-2024 10:04:33,10.044s,PASSED
+"if (verifyTextPresent(""Lihat Program"", false))",Chrome 124.0.0.0,,,16-05-2024 10:04:33,16-05-2024 10:04:36,2.074s,PASSED
+"click(findTestObject(""Object Repository/Page_Metrodata Academy/button_M Gilang Rizky Ramadhan""))",Chrome 124.0.0.0,,,16-05-2024 10:04:36,16-05-2024 10:04:36,0.343s,PASSED
+"click(findTestObject(""Object Repository/Page_Metrodata Academy/button_Keluar""))",Chrome 124.0.0.0,,,16-05-2024 10:04:36,16-05-2024 10:05:13,37.005s,PASSED

@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>cbfc1c02-d7d7-4fb3-b6f2-68365fe77824</webElementGuid>
+      <webElementGuid>8c79991d-50d7-447f-9029-06cf5ad40756</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>bg-white text-cerulean-600 font-semibold rounded-lg border-2 border-cerulean-600 py-1 px-3 mr-2 focus:bg-cerulean-600 focus:text-white hover:bg-gray-100</value>
-      <webElementGuid>b5834401-309f-40f6-afa1-01af47eac192</webElementGuid>
+      <webElementGuid>991ebded-db7c-4680-afa1-d24614c96674</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Metrodata Training</value>
-      <webElementGuid>ac68a90f-eb70-4c38-a2ad-03971075bc18</webElementGuid>
+      <webElementGuid>dbbd7170-00ca-4e31-88f8-c12ab9deaebc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,15 +53,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[1]/div[1]/div[@class=&quot;flex flex-col px-8 pb-8 lg:px-[108px]&quot;]/div[@class=&quot;mb-10 flex gap-2 justify-center flex-wrap&quot;]/button[@class=&quot;bg-white text-cerulean-600 font-semibold rounded-lg border-2 border-cerulean-600 py-1 px-3 mr-2 focus:bg-cerulean-600 focus:text-white hover:bg-gray-100&quot;]</value>
-      <webElementGuid>5d2c42d6-e9c8-491e-ba1d-e2c9e30946b3</webElementGuid>
+      <webElementGuid>310a9199-acec-4997-a535-6a4d896cf976</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div[4]/div[2]/button[2]</value>
-      <webElementGuid>63801beb-bf75-4ee8-9364-e7618b451176</webElementGuid>
+      <webElementGuid>7511cb34-a7af-4c15-8e2b-06bbd051f14d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='View All'])[1]/following::button[1]</value>
-      <webElementGuid>4bdc9d1c-e34a-4332-bd49-4e7cd680a4f9</webElementGuid>
+      <webElementGuid>82ab8e22-a8b8-4843-9809-72e0cde5dc4b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jadwal Training dan Workshop Bersertifikasi yang Tersedia'])[1]/following::button[2]</value>
-      <webElementGuid>776dcb6f-b463-4d5b-bbc1-a07eed9173c7</webElementGuid>
+      <webElementGuid>ed1d7de3-fd9f-4375-ab91-ac4b358c4027</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Metrodata IT Camp'])[2]/preceding::button[1]</value>
-      <webElementGuid>c1af641d-9549-45a4-a1ee-a56f3ee485d4</webElementGuid>
+      <webElementGuid>cb61ffb3-f01c-456f-af2c-e88f26374f2a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Metrodata Mengajar'])[2]/preceding::button[2]</value>
-      <webElementGuid>23452590-8c61-4fa9-a332-64740be10782</webElementGuid>
+      <webElementGuid>3574fb28-37df-4235-96c6-8fad35052621</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]</value>
-      <webElementGuid>56ab2bf2-a54e-4e11-bdef-9994f7434b91</webElementGuid>
+      <webElementGuid>8cb19823-85c2-428d-9426-60235756d644</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Metrodata Training' or . = 'Metrodata Training')]</value>
-      <webElementGuid>722c1ed9-21d5-48d6-b1d4-d3893d0cbb5a</webElementGuid>
+      <webElementGuid>bf5a0e3b-3911-40f4-8338-40533a2ba6c8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

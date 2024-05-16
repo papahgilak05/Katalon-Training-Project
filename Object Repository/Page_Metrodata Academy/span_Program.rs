@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>920d43ad-38a6-4887-8d6e-7b63cd3107d4</webElementGuid>
+      <webElementGuid>92e8b4f2-281e-4618-a910-54ca827e382b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>flex items-center px-4 py-10 text-sm xl:text-base font-semibold leading-4 gap-x-1 group-hover:text-black group-hover:hover:text-cerulean-600 md:cursor-pointer text-white</value>
-      <webElementGuid>c3cce1b7-7c24-4c7b-9cb6-a6c32cd9c8f8</webElementGuid>
+      <webElementGuid>00b0c56b-2887-4159-8351-495b1e6882dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Program</value>
-      <webElementGuid>2652d017-8090-4ca0-9335-9914e65ab71e</webElementGuid>
+      <webElementGuid>38942f0b-0fa7-4a85-a656-fac33d3f8699</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,15 +53,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[1]/header[@class=&quot;fixed top-0 left-0 right-0 z-10 bg-gradient-to-r from-white/40 to-white/20 sm:z-40 drop-shadow-lg backdrop-blur-lg&quot;]/nav[@class=&quot;flex items-center justify-between lg:px-[108px] xl:py-2 xl:h-[92px] py-6 px-8 xl:justify-center&quot;]/div[@class=&quot;items-center justify-center hidden mx-auto xl:flex xl:gap-x-5&quot;]/div[@class=&quot;flex flex-row gap-x-5&quot;]/div[@class=&quot;flex gap-x-5 group&quot;]/div[1]/div[@class=&quot;flex items-center gap-x-1 hover:text-cerulean-600  text-white&quot;]/span[@class=&quot;flex items-center px-4 py-10 text-sm xl:text-base font-semibold leading-4 gap-x-1 group-hover:text-black group-hover:hover:text-cerulean-600 md:cursor-pointer text-white&quot;]</value>
-      <webElementGuid>ce5d0ea7-dbfa-46ee-a78e-e962bb11a7cb</webElementGuid>
+      <webElementGuid>b9875a4f-8578-40b9-812c-be13e478ee6a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/header/nav/div[3]/div/div/div/div/span</value>
-      <webElementGuid>4d4f31a8-9a2d-49f2-8a91-f83b6a007526</webElementGuid>
+      <webElementGuid>2f4709f4-4caf-4905-955a-13f6e810fcc4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Open menu'])[1]/following::span[1]</value>
-      <webElementGuid>9cc80b96-cfd7-4cde-9ec2-9263c87d6ad5</webElementGuid>
+      <webElementGuid>e7b581c4-c81d-4bc8-8c5e-a7a035803edb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Metrodata Academy'])[2]/following::span[2]</value>
-      <webElementGuid>c8c10504-bd83-4272-aa9d-7408fc0876f8</webElementGuid>
+      <webElementGuid>1a2dbe10-e262-414b-863b-b911e517e35f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Metrodata Training'])[1]/preceding::span[1]</value>
-      <webElementGuid>db5e1557-c3c5-4c64-93e3-4baadee57a0a</webElementGuid>
+      <webElementGuid>755b894f-84aa-4a70-8db1-58bb53c414dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Metrodata Internship'])[1]/preceding::span[2]</value>
-      <webElementGuid>2ec15832-2284-4666-9b58-72d147e589da</webElementGuid>
+      <webElementGuid>9f1df82e-2a75-4b87-9aed-f404b3c2f8af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Program']/parent::*</value>
-      <webElementGuid>7de9b3fd-00ac-479f-a641-59b8c0bf7811</webElementGuid>
+      <webElementGuid>29845a0d-a397-46a5-9a93-d1e125945121</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/span</value>
-      <webElementGuid>e60dc8c9-b0cb-49bf-8ee0-8b69d88ff0da</webElementGuid>
+      <webElementGuid>eae2dde9-3061-4ade-95fc-2cfdf1bb9000</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Program' or . = 'Program')]</value>
-      <webElementGuid>35daf5d2-368b-40b8-9796-b0a2c88dbd4f</webElementGuid>
+      <webElementGuid>0b6e4a80-7fd7-4f88-a7bd-e4b1c17ab2e2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

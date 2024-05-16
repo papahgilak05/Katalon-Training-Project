@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>c9181f2f-c608-4cb3-b510-f878619b8785</webElementGuid>
+      <webElementGuid>f2933fb2-0792-4e92-bf8d-7c6ee81ab3f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>text-xl font-medium leading-6 </value>
-      <webElementGuid>dc092c10-7bca-4e15-a9ba-25fb314fc6f8</webElementGuid>
+      <webElementGuid>65782bd7-5207-49ba-aab6-4d2e9c4347ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/profile</value>
-      <webElementGuid>0a34b978-d6fc-4412-a15a-13c008d9002f</webElementGuid>
+      <webElementGuid>9b44c805-f1b4-43a4-8bda-61fd53b69349</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Data Akun</value>
-      <webElementGuid>449157ca-a37d-4a64-b2b2-f330c7f4988e</webElementGuid>
+      <webElementGuid>293a897f-54d7-4b66-bb62-8ff1829b473d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,15 +61,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[1]/div[1]/div[@class=&quot;flex flex-col lg:px-[108px] px-8 py-32 sm:flex-row gap-x-[30px] sm:items-start&quot;]/ul[@class=&quot;shrink-0 p-10 pl-5 border rounded-lg hidden sm:grid sm:grid-cols-1 sm:gap-y-[30px] shadow-md&quot;]/li[@class=&quot;hover:text-blue-600&quot;]/a[@class=&quot;text-xl font-medium leading-6&quot;]</value>
-      <webElementGuid>404e01fd-9320-43a4-bd23-48c4613065a2</webElementGuid>
+      <webElementGuid>b238a613-3f40-4501-90c6-1f6b6715a53c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/ul/li[2]/a</value>
-      <webElementGuid>1d1db1a6-9757-458b-946c-329b1608576e</webElementGuid>
+      <webElementGuid>7806ed90-badc-447c-b125-a67b41b61b93</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Data Akun')]</value>
-      <webElementGuid>436c671e-d19a-4b61-8b0f-adc6e76c612a</webElementGuid>
+      <webElementGuid>a55c2ad1-69a1-40e0-a638-c337a759f72c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Profil'])[1]/following::a[1]</value>
-      <webElementGuid>eebfb62e-e04e-48b9-b014-c9196c5eee75</webElementGuid>
+      <webElementGuid>08bb05cd-24a0-411e-88d2-7211fef608a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='M Gilang Rizky Ramadhan'])[1]/following::a[2]</value>
-      <webElementGuid>883a8b56-ba41-4995-99e2-914269cfa471</webElementGuid>
+      <webElementGuid>4094cf4e-1654-49fb-a953-487b72419368</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email Langganan'])[1]/preceding::a[1]</value>
-      <webElementGuid>da7c4be4-20a2-4422-8a3b-07044f3cc5e8</webElementGuid>
+      <webElementGuid>ab2abab1-cdd2-44cf-9186-1a8cf0eb3a46</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Aktivitas'])[1]/preceding::a[2]</value>
-      <webElementGuid>617ed6bd-4b66-4b70-8569-e7703feafed4</webElementGuid>
+      <webElementGuid>8e654cb1-1b41-4d12-afbd-1786adc00971</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Data Akun']/parent::*</value>
-      <webElementGuid>c2aa1b19-053b-49b8-b2ca-a581ee2db21c</webElementGuid>
+      <webElementGuid>f8c3e847-93e2-4a44-a707-f8e43b7dc956</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '/profile')])[2]</value>
-      <webElementGuid>ae884279-5c68-4945-9dbf-406b8fc4b597</webElementGuid>
+      <webElementGuid>7b280f59-3b72-473a-8f09-05e3b7141ca7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/a</value>
-      <webElementGuid>fb4d85c9-3a7d-440d-9bcc-5410136f85a5</webElementGuid>
+      <webElementGuid>21aa798c-0b95-43ec-8e8e-1d5cd2ec9bf7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +141,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/profile' and (text() = 'Data Akun' or . = 'Data Akun')]</value>
-      <webElementGuid>7d4cbd5a-2bad-43ee-8eb9-e6973b8b9e97</webElementGuid>
+      <webElementGuid>b33768c7-a9fe-40d0-becb-76f3dbdb7e73</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[2]</value>
+         <value>//button[@type='submit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,23 +29,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>336619a1-23ba-461c-86ca-1ddba113c187</webElementGuid>
+      <webElementGuid>6088b641-d4d0-498b-9f92-3a57b2f3ecc4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>318165fd-98bd-4a75-b772-f957242be786</webElementGuid>
+      <value>submit</value>
+      <webElementGuid>9a8cabd8-73dc-40d8-bcab-0ead2e629718</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>text-white bg-cerulean-600 hover:bg-cerulean-500 focus:ring-4 focus:ring-cerulean-300 font-medium rounded-lg text-sm px-5 py-2.5 focus:outline-none</value>
-      <webElementGuid>eabfa3c3-4f3e-4109-8ce7-252ace382584</webElementGuid>
+      <value>w-full px-8 py-4 font-sans text-base font-medium leading-4 text-center text-white rounded-md disabled:bg-cerulean-300 bg-cerulean-600</value>
+      <webElementGuid>9a5b864b-99c8-4f09-925c-acaea9840458</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,55 +53,55 @@
       <name>text</name>
       <type>Main</type>
       <value>Daftar</value>
-      <webElementGuid>6a6990c2-d8d8-404d-8518-2d92b9ca926a</webElementGuid>
+      <webElementGuid>7a17ada3-cb01-457b-9619-60faad9611f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;section-detail-training&quot;)/div[@class=&quot;min-h-full&quot;]/main[@class=&quot;lg:px-[108px] px-9 lg:pb-24 pb-8 -mt-[300px] lg:-mt-[280px]&quot;]/div[@class=&quot;max-w-3xl mx-auto sm:px-6 lg:max-w-7xl lg:px-0&quot;]/div[1]/div[@class=&quot;grid grid-cols-1 items-start gap-4 lg:grid-cols-3 lg:gap-[50px]&quot;]/div[@class=&quot;grid grid-cols-1 lg:col-span-2&quot;]/section[1]/section[1]/div[@class=&quot;overflow-hidden bg-white rounded-lg shadow&quot;]/dl[@class=&quot;flex flex-wrap px-5 py-8 gap-y-4&quot;]/div[@class=&quot;grid w-full grid-cols-2 gap-5&quot;]/button[@class=&quot;text-white bg-cerulean-600 hover:bg-cerulean-500 focus:ring-4 focus:ring-cerulean-300 font-medium rounded-lg text-sm px-5 py-2.5 focus:outline-none&quot;]</value>
-      <webElementGuid>8fa61403-0856-4d04-b6cd-81e3fa917c77</webElementGuid>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;grid grid-cols-1 lg:grid-cols-2 h-screen&quot;]/div[@class=&quot;flex flex-col items-center justify-center gap-10 px-8 lg:px-[72px] py-5&quot;]/div[@class=&quot;flex flex-col justify-center w-full lg:px-8 py-10 gap-[23px]&quot;]/form[@class=&quot;flex flex-col gap-[18px]&quot;]/div[@class=&quot;w-full&quot;]/button[@class=&quot;w-full px-8 py-4 font-sans text-base font-medium leading-4 text-center text-white rounded-md disabled:bg-cerulean-300 bg-cerulean-600&quot;]</value>
+      <webElementGuid>a529db91-9be4-4854-92db-620ee76c44de</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[2]</value>
-      <webElementGuid>9d67efd4-0647-4220-b64c-ef8638f60a5d</webElementGuid>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>53078b79-3fa7-4207-9e79-2c1a128fd58b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='section-detail-training']/div/main/div/div/div/div/section/section/div/dl/div[4]/button</value>
-      <webElementGuid>75552f27-4b0b-4e01-938f-bbc8e264ca22</webElementGuid>
+      <value>//div[@id='root']/div/div/div/div/form/div[6]/button</value>
+      <webElementGuid>c46ba522-8a05-4914-a8e3-307d92c231fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unduh Silabus'])[1]/following::button[1]</value>
-      <webElementGuid>cf0e9b3e-9d5f-4b68-af4d-431a7a42892f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='aturan penggunaan'])[1]/following::button[1]</value>
+      <webElementGuid>39235caf-fce3-4d3d-bb7e-cad8a43e5223</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/following::button[1]</value>
-      <webElementGuid>774e274c-e82f-475e-ab7d-ee5bdadfce3d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[4]/following::button[2]</value>
+      <webElementGuid>8ee9e5f7-09f4-4206-9cc0-17fdd65a285c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='info.training@metrodata.co.id'])[1]/preceding::button[1]</value>
-      <webElementGuid>3386e7ea-f637-4c3b-98b3-0db4a5c58def</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk Sekarang'])[1]/preceding::button[1]</value>
+      <webElementGuid>11d64ccc-d2c7-4e73-a2ad-f2352917bfce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,63 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Daftar']/parent::*</value>
-      <webElementGuid>429fd0f6-0cb5-450a-828f-c6c85eeb8d54</webElementGuid>
+      <webElementGuid>a927881c-5f5a-4342-9bde-3c7258cec17f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/button</value>
+      <webElementGuid>ab7e78f6-0695-474e-9275-bc09d20965a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = 'Daftar' or . = 'Daftar')]</value>
+      <webElementGuid>4e2e5b26-689d-428d-aed2-cff8d815edea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[2]</value>
+      <webElementGuid>b5b41d6d-e8a7-4255-99f2-bb821d47469b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='section-detail-training']/div/main/div/div/div/div/section/section/div/dl/div[4]/button</value>
+      <webElementGuid>88d27d5e-7410-466c-aa49-d111a4abfd7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unduh Silabus'])[1]/following::button[1]</value>
+      <webElementGuid>484888ea-e0cf-472c-b2b2-e97482ff9db8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/following::button[1]</value>
+      <webElementGuid>e45d0784-6083-4a03-8efe-ca00add730dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='info.training@metrodata.co.id'])[1]/preceding::button[1]</value>
+      <webElementGuid>bbafe962-153a-46b3-b3ba-49b2d4b57780</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +173,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/button</value>
-      <webElementGuid>6ade521f-d1b8-4631-9271-70a5285bb1f4</webElementGuid>
+      <webElementGuid>56c88ba5-82c7-40e7-b41c-a339b67a8c2d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +181,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Daftar' or . = 'Daftar')]</value>
-      <webElementGuid>4fd030cc-099a-4d21-ac90-c16f73550bea</webElementGuid>
+      <webElementGuid>2fe7140a-4e3d-44a4-ab04-a181e8a18101</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
