@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Test Case 7 (Abnormal Daftar Akun-2)</name>
+   <name>Test Case_Metrodata Mengajar (Normal)</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e3a2bdde-1934-4f99-9d08-cabfd6b57f02</testCaseGuid>
+   <testCaseGuid>dee71543-58c5-4752-b86f-f6c150bba611</testCaseGuid>
 </TestCaseEntity>
