@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 124.0.0.0,,,16-05-2024 11:08:28,16-05-2024 11:09:53,1m - 24.934s,PASSED
+,,,,,,,
+Test Cases/Test Case 1 (Normal Login),Chrome 124.0.0.0,,,16-05-2024 11:08:28,16-05-2024 11:09:53,1m - 24.671s,PASSED
+"openBrowser("""")",Chrome 124.0.0.0,,,16-05-2024 11:08:28,16-05-2024 11:08:30,2.081s,PASSED
+maximizeWindow(),Chrome 124.0.0.0,,,16-05-2024 11:08:30,16-05-2024 11:08:31,0.206s,PASSED
+"navigateToUrl(""https://metrodataacademy.id/"")",Chrome 124.0.0.0,,,16-05-2024 11:08:31,16-05-2024 11:08:32,1.153s,PASSED
+takeScreenshot(),Chrome 124.0.0.0,Berhasil Membuka Website Metrodata Academy,,16-05-2024 11:08:32,16-05-2024 11:08:38,6.353s,PASSED
+"click(findTestObject(""Object Repository/Page_Metrodata Academy/a_Masuk""))",Chrome 124.0.0.0,,,16-05-2024 11:08:38,16-05-2024 11:09:10,31.906s,PASSED
+"setText(findTestObject(""Object Repository/Page_Metrodata Academy/input__email""), ""papahgilak@gmail.com"")",Chrome 124.0.0.0,,,16-05-2024 11:09:10,16-05-2024 11:09:11,0.729s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Metrodata Academy/input__password""), ""ANgLrNN9LeX238E+iUxpGw=="")",Chrome 124.0.0.0,,,16-05-2024 11:09:11,16-05-2024 11:09:11,0.510s,PASSED
+"click(findTestObject(""Object Repository/Page_Metrodata Academy/button_Masuk""))",Chrome 124.0.0.0,,,16-05-2024 11:09:11,16-05-2024 11:09:12,0.347s,PASSED
+delay(4),Chrome 124.0.0.0,,,16-05-2024 11:09:12,16-05-2024 11:09:16,4.045s,PASSED
+"if (verifyTextPresent(""Lihat Program"", false))",Chrome 124.0.0.0,,,16-05-2024 11:09:16,16-05-2024 11:09:21,4.808s,PASSED
+"click(findTestObject(""Object Repository/Page_Metrodata Academy/button_M Gilang Rizky Ramadhan""))",Chrome 124.0.0.0,,,16-05-2024 11:09:21,16-05-2024 11:09:21,0.335s,PASSED
+"click(findTestObject(""Object Repository/Page_Metrodata Academy/button_Keluar""))",Chrome 124.0.0.0,,,16-05-2024 11:09:21,16-05-2024 11:09:52,31.417s,PASSED
+closeBrowser(),Chrome 124.0.0.0,,,16-05-2024 11:09:52,16-05-2024 11:09:53,0.275s,PASSED

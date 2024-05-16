@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="85.724" tests="1" failures="0" errors="0">
+   <testsuite name="Login" tests="1" failures="0" errors="0" time="85.724" skipped="0" timestamp="16-05-2024T11:00:02" hostname="papah - PapahGilak" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240516_105957\\Login\\20240516_105957"/>
+         <property name="logFiles" value="C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240516_105957\\Login\\20240516_105957\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240516_105957\\Login\\20240516_105957\\1715832013522.png"/>
+         <property name="hostName" value="papah - PapahGilak"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Chrome 124.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.121"/>
+         <property name="sessionId" value="efe57e797fdc7110b82c15fbd1d965c4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Test Case 1 (Normal Login)" time="85.481" classname="Test Cases/Test Case 1 (Normal Login)" status="PASSED">
+         <system-out><![CDATA[16-05-2024T11:00:02 - [TEST_CASE][PASSED] - Test Cases/Test Case 1 (Normal Login): Test Cases/Test Case 1 (Normal Login)
+
+16-05-2024T11:00:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+16-05-2024T11:00:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+16-05-2024T11:00:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-05-2024T11:00:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+16-05-2024T11:00:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+16-05-2024T11:00:05 - [MESSAGE][PASSED] - Current window maximized
+
+16-05-2024T11:00:05 - [TEST_STEP][PASSED] - navigateToUrl("https://metrodataacademy.id/"): Navigate to 'https://metrodataacademy.id/' successfully
+
+16-05-2024T11:00:05 - [MESSAGE][PASSED] - Navigate to 'https://metrodataacademy.id/' successfully
+
+16-05-2024T11:00:05 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+16-05-2024T11:00:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240516_105957\\Login\\20240516_105957\\1715832013522.png]]
+
+16-05-2024T11:00:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Metrodata Academy/a_Masuk")): Object: 'Object Repository/Page_Metrodata Academy/a_Masuk' is clicked on
+
+16-05-2024T11:00:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='headlessui-dialog-panel-:ra:']/div[2]/div/div[2]/div/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+16-05-2024T11:00:45 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Metrodata Academy/a_Masuk'. Try using Self-healing.
+
+16-05-2024T11:00:45 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Metrodata Academy/a_Masuk' was broken. Propose an alternative one: '//a[@href = '/sign-in' and (text() = 'Masuk' or . = 'Masuk')]'.
+
+16-05-2024T11:00:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metrodata Academy/a_Masuk' is clicked on
+
+16-05-2024T11:00:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Metrodata Academy/input__email"), "papahgilak@gmail.com"): Text 'papahgilak@gmail.com' is set on object 'Object Repository/Page_Metrodata Academy/input__email'
+
+16-05-2024T11:00:47 - [MESSAGE][PASSED] - Text 'papahgilak@gmail.com' is set on object 'Object Repository/Page_Metrodata Academy/input__email'
+
+16-05-2024T11:00:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Metrodata Academy/input__password"), "ANgLrNN9LeX238E+iUxpGw=="): Text ****** has been set on object 'Object Repository/Page_Metrodata Academy/input__password'
+
+16-05-2024T11:00:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Metrodata Academy/input__password'
+
+16-05-2024T11:00:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Metrodata Academy/button_Masuk")): Object: 'Object Repository/Page_Metrodata Academy/button_Masuk' is clicked on
+
+16-05-2024T11:00:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metrodata Academy/button_Masuk' is clicked on
+
+16-05-2024T11:00:48 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+16-05-2024T11:00:52 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+16-05-2024T11:00:52 - [TEST_STEP][PASSED] - if (verifyTextPresent("Lihat Program", false)): null
+
+16-05-2024T11:00:56 - [MESSAGE][PASSED] - Text 'Lihat Program' is present on page 
+
+16-05-2024T11:00:56 - [TEST_STEP][PASSED] - markPassed("Berhasil Login"): Berhasil Login
+
+16-05-2024T11:00:56 - [MESSAGE][PASSED] - Berhasil Login
+
+16-05-2024T11:00:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Metrodata Academy/button_M Gilang Rizky Ramadhan")): Object: 'Object Repository/Page_Metrodata Academy/button_M Gilang Rizky Ramadhan' is clicked on
+
+16-05-2024T11:00:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metrodata Academy/button_M Gilang Rizky Ramadhan' is clicked on
+
+16-05-2024T11:00:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Metrodata Academy/button_Keluar")): Object: 'Object Repository/Page_Metrodata Academy/button_Keluar' is clicked on
+
+16-05-2024T11:01:27 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='headlessui-disclosure-panel-:rj:']/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+16-05-2024T11:01:27 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Metrodata Academy/button_Keluar'. Try using Self-healing.
+
+16-05-2024T11:01:27 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Metrodata Academy/button_Keluar' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Akun Saya'])[1]/following::button[1]'.
+
+16-05-2024T11:01:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metrodata Academy/button_Keluar' is clicked on
+
+16-05-2024T11:01:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+16-05-2024T11:01:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[16-05-2024T11:00:02 - [TEST_SUITE][PASSED] - Login: Test Cases/Test Case 1 (Normal Login)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

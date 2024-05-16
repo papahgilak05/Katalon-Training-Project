@@ -16,39 +16,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.openBrowser('')
-WebUI.maximizeWindow()
-//-------------------------- Membuka Website Metrodata Academy --------------------------//
+
 WebUI.navigateToUrl('https://metrodataacademy.id/')
 
-'Berhasil Membuka Website Metrodata Academy'
-WebUI.takeScreenshot()
+WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/path'))
 
-//-------------------------- Masuk Kedalam Login Page --------------------------//
-//WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/Button Tiga Garis Di Pojok Kanan Atas'))
 WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/a_Masuk'))
 
-//-------------------------- Masuk Kedalam --------------------------//
 WebUI.setText(findTestObject('Object Repository/Page_Metrodata Academy/input__email'), 'papahgilak@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Metrodata Academy/input__password'), 'ANgLrNN9LeX238E+iUxpGw==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Metrodata Academy/input__password'), '4VRtK9SyQCROImfHX7yNDFtP+dE0BemFQA7XPsqhpiElUv38N1rW0A==')
 
-WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/button_Masuk'))
-WebUI.delay(4)
-
-if (WebUI.verifyTextPresent('Lihat Program', false)) {
-	KeywordUtil.logInfo('Berhasil Login' + WebUI.takeScreenshot())
-} else {
-	KeywordUtil.logInfo('Gagal Login' + WebUI.takeScreenshot())
-}
-
-WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/button_M Gilang Rizky Ramadhan'))
-
-WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/button_Keluar'))
-
-WebUI.closeBrowser()
-
-
+WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/button_Try Again'))
 
