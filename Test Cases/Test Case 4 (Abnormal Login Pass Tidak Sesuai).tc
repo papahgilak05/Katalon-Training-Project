@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Test Case 4 (Abnormal Login)</name>
+   <name>Test Case 4 (Abnormal Login Pass Tidak Sesuai)</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>da4a6fd8-e0d9-4585-89d1-3d8b41f87127</testCaseGuid>
