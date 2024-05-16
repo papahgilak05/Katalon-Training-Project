@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>6e683f80-3e80-44bd-93a3-6b4e7ec14c03</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>path</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Open menu&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>071a806b-d1eb-4be8-9d48-98e300d2c006</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill-rule</name>
+      <type>Main</type>
+      <value>evenodd</value>
+      <webElementGuid>5368bb8f-2fe7-4d12-9dec-b11c3ad1d000</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z</value>
+      <webElementGuid>1b87cc14-876f-40fe-9d74-d73f21299f05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>clip-rule</name>
+      <type>Main</type>
+      <value>evenodd</value>
+      <webElementGuid>fab870f1-dc5f-479f-8833-9bd65d7efbc3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/header[@class=&quot;fixed top-0 left-0 right-0 z-10 bg-gradient-to-r from-white/40 to-white/20 sm:z-40 drop-shadow-lg backdrop-blur-lg&quot;]/nav[@class=&quot;flex items-center justify-between lg:px-[108px] xl:py-2 xl:h-[92px] py-6 px-8 xl:justify-center&quot;]/div[@class=&quot;flex xl:hidden mr-1.5 xl:mr-0&quot;]/button[@class=&quot;inline-flex items-center justify-center p-2 -m-2 text-white rounded-md 5&quot;]/svg[@class=&quot;w-6 h-6 text-white&quot;]/path[1]</value>
+      <webElementGuid>a824247c-0231-4d0b-88ae-9acd31cc692c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

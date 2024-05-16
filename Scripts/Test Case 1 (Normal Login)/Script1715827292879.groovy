@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.openBrowser('')
 WebUI.maximizeWindow()
@@ -38,9 +39,9 @@ WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/button_Masu
 WebUI.delay(4)
 
 if (WebUI.verifyTextPresent('Lihat Program', false)) {
-	WebUI.comment('Berhasil Login')
+	KeywordUtil.logInfo('Berhasil Login' + WebUI.takeScreenshot())
 } else {
-	WebUI.comment("Gagal Login")
+	KeywordUtil.logInfo('Gagal Login' + WebUI.takeScreenshot())
 }
 
 WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/button_M Gilang Rizky Ramadhan'))

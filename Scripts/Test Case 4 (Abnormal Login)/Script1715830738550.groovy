@@ -17,3 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://metrodataacademy.id/')
+
+WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/path'))
+
+WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/a_Masuk'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Metrodata Academy/input__email'), 'papahgilak@gmail.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Metrodata Academy/input__password'), '4VRtK9SyQCROImfHX7yNDFtP+dE0BemFQA7XPsqhpiElUv38N1rW0A==')
+
+WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/button_Try Again'))
+

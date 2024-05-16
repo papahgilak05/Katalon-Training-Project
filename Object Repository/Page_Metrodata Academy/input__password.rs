@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>e35217cb-2162-4cab-8b37-c01fed41ce5c</webElementGuid>
+      <webElementGuid>6f292859-750b-4129-965b-c7ca8df6168b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>56f91a01-3c8c-45d7-aa71-fa0bb21dedde</webElementGuid>
+      <webElementGuid>ce257713-c2dc-43e6-b33a-8957aba76cec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>name</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>4a0667ac-9f25-4e86-ab0c-ff64f913ff38</webElementGuid>
+      <webElementGuid>c8757678-59de-47d2-91ac-54c1d24ae4c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>id</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>72daedc7-d645-43b7-9a6d-eceab68702e0</webElementGuid>
+      <webElementGuid>8b159f91-6351-4f6f-9fb1-267c8438eee4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Masukkan password</value>
-      <webElementGuid>c07dd270-ad38-4ac9-ae95-3ade55b33c7c</webElementGuid>
+      <webElementGuid>dec9568b-f68b-4e04-9101-c8677b7580fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>class</name>
       <type>Main</type>
       <value>block w-full px-3 py-[14px] bg-gray-50 border rounded-lg active:outline-none focus:ring-none border-gray-300</value>
-      <webElementGuid>c76e70aa-139a-4e6e-9d0e-f9c43566d444</webElementGuid>
+      <webElementGuid>f9aeea08-521f-4c09-b3d2-68d2cc6660c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;password&quot;)</value>
-      <webElementGuid>e37c0876-4d80-46ee-a01f-abd30f058d4f</webElementGuid>
+      <webElementGuid>d6d00dae-9769-4449-a17e-06acbc13f146</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='password']</value>
-      <webElementGuid>b5f46530-db86-4387-beb1-340bc58a8d46</webElementGuid>
+      <webElementGuid>7bf988c2-58aa-4305-8665-ebf6192263d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/div/form/div/div[2]/div/div/div/input</value>
-      <webElementGuid>9f443ef5-dbb4-428f-a99d-b789fb01c687</webElementGuid>
+      <webElementGuid>f54c073b-91d0-409c-be14-d95b93e5a567</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/input</value>
-      <webElementGuid>5d9167fd-7413-4d99-84b6-1485466cfb59</webElementGuid>
+      <webElementGuid>e78d5b96-9522-48c1-b1cc-278932ba4ca0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'password' and @name = 'password' and @id = 'password' and @placeholder = 'Masukkan password']</value>
-      <webElementGuid>130f9d74-fbfa-40f7-93a0-c1116802db0c</webElementGuid>
+      <webElementGuid>69e44cc7-65d0-462c-9f7c-512f1c60c01d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
