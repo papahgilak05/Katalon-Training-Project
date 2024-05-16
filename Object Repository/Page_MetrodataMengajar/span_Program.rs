@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Program</name>
+   <tag></tag>
+   <elementGuidId>f2a40912-016d-4255-9e46-689b20712495</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/header/nav/div[3]/div/div/div/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Global&quot;i >> internal:text=&quot;Program&quot;s</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>313719bc-7d5e-4ce3-9fa7-b960927d3414</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center px-4 py-10 text-sm xl:text-base font-semibold leading-4 gap-x-1 group-hover:text-black group-hover:hover:text-cerulean-600 md:cursor-pointer text-black</value>
+      <webElementGuid>e5c9142e-18ec-4f08-aa56-a68dc78ea7c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Program</value>
+      <webElementGuid>97927aac-8cdc-4eaa-94f0-c05eca312945</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/header[@class=&quot;fixed top-0 left-0 right-0 z-10 bg-gradient-to-r from-white/40 to-white/20 sm:z-40 drop-shadow-lg backdrop-blur-lg bg-white fixed top-0 left-0 right-0 drop-shadow-lg&quot;]/nav[@class=&quot;flex items-center justify-between lg:px-[108px] xl:py-2 xl:h-[92px] py-6 px-8 xl:justify-center&quot;]/div[@class=&quot;items-center justify-center hidden mx-auto xl:flex xl:gap-x-5&quot;]/div[@class=&quot;flex flex-row gap-x-5&quot;]/div[@class=&quot;flex gap-x-5 group&quot;]/div[1]/div[@class=&quot;flex items-center gap-x-1 hover:text-cerulean-600  text-black&quot;]/span[@class=&quot;flex items-center px-4 py-10 text-sm xl:text-base font-semibold leading-4 gap-x-1 group-hover:text-black group-hover:hover:text-cerulean-600 md:cursor-pointer text-black&quot;]</value>
+      <webElementGuid>4d916964-dd64-4b5b-9e1b-414ea4babf2c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/header/nav/div[3]/div/div/div/div/span</value>
+      <webElementGuid>3cbce53e-8678-457b-93b5-1a948a4b97a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Open menu'])[1]/following::span[1]</value>
+      <webElementGuid>78e416c9-db44-48ba-841e-8063c0e2bad3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Metrodata Academy'])[2]/following::span[2]</value>
+      <webElementGuid>893a488c-9fba-4ef4-8369-fb921be84942</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Metrodata Training'])[1]/preceding::span[1]</value>
+      <webElementGuid>0bb49635-df86-4570-b29d-85ee46a919f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Metrodata Internship'])[1]/preceding::span[2]</value>
+      <webElementGuid>66c19f36-ce8d-4aaa-b74a-62cc0a801411</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Program']/parent::*</value>
+      <webElementGuid>f6c816e8-2988-422a-aed3-096e0eb07508</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/span</value>
+      <webElementGuid>93107fb0-4bfb-4e31-8b6d-4e65f9e90bb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Program' or . = 'Program')]</value>
+      <webElementGuid>9ddb3eb2-8f31-4ab0-bd92-7c1d27d12394</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
