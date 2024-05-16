@@ -17,6 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+
 // Membuka browser dan mengatur ukuran jendela
 WebUI.openBrowser('')
 WebUI.maximizeWindow()
@@ -31,10 +32,13 @@ WebUI.takeScreenshot()
 //WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/Button Tiga Garis Di Pojok Kanan Atas'))
 WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/a_Daftar'))
 
-'Klik Masuk Sekarang'
-WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/Masuk_sekarang'))
+'Klik Aturan Pengguna'
+WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/aturan_pengguna'))
 
 WebUI.delay(2)
+
+'Klik Button Kembali'
+WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/button_kembali'))
 
 WebUI.takeScreenshot()
 

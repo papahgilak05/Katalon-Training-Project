@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Test Case 3 (Normal)</name>
+   <name>Test Case 3 (Normal Daftar Akun - Klik Aturan Pengguna)</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>a67500bc-1e3d-4880-b661-bc3fa749ac45</testCaseGuid>
