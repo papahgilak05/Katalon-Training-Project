@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>8913b54a-7f7e-4c8e-b235-16f3df3b5432</webElementGuid>
+      <webElementGuid>2132c962-a289-4bc6-8177-0f1ef400f911</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>email</value>
-      <webElementGuid>da0276a9-95e0-4602-b47c-7910ce6826b6</webElementGuid>
+      <webElementGuid>12077ec0-0578-47a6-ba4e-184e2c29d0c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>name</name>
       <type>Main</type>
       <value>email</value>
-      <webElementGuid>42e07eab-e6a4-494a-9a6d-a000e89702fd</webElementGuid>
+      <webElementGuid>e355bbbc-5aa5-4488-aaaa-b19d0c4eb9a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>id</name>
       <type>Main</type>
       <value>email</value>
-      <webElementGuid>76cbbc05-5085-416d-9db9-3a2a99c64b19</webElementGuid>
+      <webElementGuid>4d12c0c3-1d57-4ed4-8925-3c0c6811184f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Masukkan email</value>
-      <webElementGuid>42be50c2-1a46-4ed7-948a-276bbfc34883</webElementGuid>
+      <webElementGuid>61f53792-d7f1-49c8-b187-5e9ff435e593</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>class</name>
       <type>Main</type>
       <value>block w-full px-3 py-[14px] bg-gray-50 border rounded-lg active:outline-none focus:ring-none border-gray-300</value>
-      <webElementGuid>ac7c2818-9e97-4c58-a867-eb2670623b9d</webElementGuid>
+      <webElementGuid>2b7d7977-d78d-408c-962f-fe8d22b93bad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,15 +77,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;email&quot;)</value>
-      <webElementGuid>ea436570-c49e-405e-a3cc-370768930dbe</webElementGuid>
+      <webElementGuid>7f9446eb-3ed6-4ba6-9e82-d49190cdab6f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='email']</value>
-      <webElementGuid>849e9c52-8f5e-4912-804d-533856c282f2</webElementGuid>
+      <webElementGuid>677c101c-dbf6-4f37-9bf8-aaff9d83805e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/div/form/div/div/div/div/input</value>
-      <webElementGuid>1365d2e5-b4ce-4281-b8d3-2732e522ab9e</webElementGuid>
+      <webElementGuid>cddcd353-e78a-49d2-80dd-233f53cc2297</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>68fcfbd0-405e-4e7f-af7a-80133ebabb7e</webElementGuid>
+      <webElementGuid>1781b2ba-139b-4fc2-af2c-4546fd0c13b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'email' and @name = 'email' and @id = 'email' and @placeholder = 'Masukkan email']</value>
-      <webElementGuid>49175f1f-0694-4a04-9369-09f0108171ce</webElementGuid>
+      <webElementGuid>89804189-3ccb-416f-857f-9cd171f8ca71</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

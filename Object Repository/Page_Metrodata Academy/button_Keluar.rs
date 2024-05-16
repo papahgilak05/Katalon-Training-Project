@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='headlessui-popover-panel-:rd:']/div/button</value>
+         <value>//div[@id='headlessui-disclosure-panel-:rj:']/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,15 +29,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>3a41a927-4411-4179-92f8-bd5637c7b805</webElementGuid>
+      <webElementGuid>8cf77acf-da00-4a71-aa0f-9ea0f328dfb8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>block w-full px-4 py-2 text-sm text-left text-gray-700 hover:bg-gray-100</value>
-      <webElementGuid>e4cac8a2-676e-4563-9128-b88002896ffd</webElementGuid>
+      <value>flex w-full py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50</value>
+      <webElementGuid>c3e8492c-3693-44e4-a2eb-41bb5e06702a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,23 +45,23 @@
       <name>text</name>
       <type>Main</type>
       <value>Keluar </value>
-      <webElementGuid>825bf042-b211-470c-ad75-cc36e9e7dc51</webElementGuid>
+      <webElementGuid>e88ed31a-337f-41e6-900b-43fd039cdb16</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;headlessui-popover-panel-:rd:&quot;)/div[@class=&quot;py-1&quot;]/button[@class=&quot;block w-full px-4 py-2 text-sm text-left text-gray-700 hover:bg-gray-100&quot;]</value>
-      <webElementGuid>fde29fae-a6ef-4391-8a5f-53d860664148</webElementGuid>
+      <value>id(&quot;headlessui-disclosure-panel-:rj:&quot;)/button[@class=&quot;flex w-full py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50&quot;]</value>
+      <webElementGuid>8598ec9a-c553-420d-89dc-aa0acdfa2aad</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='headlessui-popover-panel-:rd:']/div/button</value>
-      <webElementGuid>1cc78193-9d22-46aa-a2c8-782affa20dae</webElementGuid>
+      <value>//div[@id='headlessui-disclosure-panel-:rj:']/button</value>
+      <webElementGuid>496b2329-a306-49a5-8a71-d8c3dd669a86</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,47 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Akun Saya'])[1]/following::button[1]</value>
-      <webElementGuid>ba173ebd-5676-42ce-b813-dade5d0eaecb</webElementGuid>
+      <webElementGuid>e7544f75-9e2f-4839-aba7-e7ee56ca92df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='M Gilang Rizky Ramadhan'])[2]/following::button[1]</value>
+      <webElementGuid>c9c99d2a-baac-4981-a8ba-0fbf8da48706</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Keluar']/parent::*</value>
+      <webElementGuid>0e45fcf5-9652-4521-b17b-5231b8bb4292</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/button</value>
+      <webElementGuid>a6f9b049-143b-4d3f-b3d0-77546ae36cd6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Keluar ' or . = 'Keluar ')]</value>
+      <webElementGuid>305df958-708b-406c-904e-41beebe150d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='headlessui-popover-panel-:rf:']/div/button</value>
+      <webElementGuid>90345cf5-d7ee-4405-917c-5c80f5fc6eeb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +117,31 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='M Gilang Rizky Ramadhan'])[1]/following::button[1]</value>
-      <webElementGuid>0e24f20e-5415-4776-9d50-c40e50b7a97f</webElementGuid>
+      <webElementGuid>4aac9953-8ab0-4491-8baa-3b655d88912c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='with Metrodata Academy'])[1]/preceding::button[1]</value>
+      <webElementGuid>e9a27afd-eb34-4325-9684-2e83f5830843</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/button</value>
+      <webElementGuid>fa556bd0-adca-4063-a83e-37e5c0742b64</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='headlessui-popover-panel-:rd:']/div/button</value>
+      <webElementGuid>1cc78193-9d22-46aa-a2c8-782affa20dae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,29 +158,5 @@
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Data Akun'])[1]/preceding::button[1]</value>
       <webElementGuid>b95376a2-6905-423a-b8d8-518a505079e6</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Keluar']/parent::*</value>
-      <webElementGuid>2840f113-9937-4513-b18b-fdd1b2b48677</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div/div/div/button</value>
-      <webElementGuid>6ae8e022-625c-4145-b83e-3896d456d807</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//button[(text() = 'Keluar ' or . = 'Keluar ')]</value>
-      <webElementGuid>dbbe12e4-f1cf-4b76-93e9-3790890803ca</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

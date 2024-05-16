@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>ed6b0c62-f798-4afc-a308-348855d7965e</webElementGuid>
+      <webElementGuid>e35217cb-2162-4cab-8b37-c01fed41ce5c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>7a0e569a-0158-48e6-9e47-10678295d0bb</webElementGuid>
+      <webElementGuid>56f91a01-3c8c-45d7-aa71-fa0bb21dedde</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>name</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>a61b6aad-c804-4928-8235-07ddcbe969e4</webElementGuid>
+      <webElementGuid>4a0667ac-9f25-4e86-ab0c-ff64f913ff38</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>id</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>9ad9daa7-9a24-419f-a63a-45e26fef38b9</webElementGuid>
+      <webElementGuid>72daedc7-d645-43b7-9a6d-eceab68702e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Masukkan password</value>
-      <webElementGuid>f82e3b2f-a7fc-4e51-b6e8-aa33863017b7</webElementGuid>
+      <webElementGuid>c07dd270-ad38-4ac9-ae95-3ade55b33c7c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>class</name>
       <type>Main</type>
       <value>block w-full px-3 py-[14px] bg-gray-50 border rounded-lg active:outline-none focus:ring-none border-gray-300</value>
-      <webElementGuid>101784d9-8314-4437-b51d-8df58af43d6f</webElementGuid>
+      <webElementGuid>c76e70aa-139a-4e6e-9d0e-f9c43566d444</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,15 +77,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;password&quot;)</value>
-      <webElementGuid>3b7f7cf7-bf59-4c6a-8d43-955c5b3305c7</webElementGuid>
+      <webElementGuid>e37c0876-4d80-46ee-a01f-abd30f058d4f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='password']</value>
-      <webElementGuid>499c61d5-0a6d-4013-8020-f7b314ccace5</webElementGuid>
+      <webElementGuid>b5f46530-db86-4387-beb1-340bc58a8d46</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/div/form/div/div[2]/div/div/div/input</value>
-      <webElementGuid>27c54ba3-c3f2-4dea-a1f6-54cd51727699</webElementGuid>
+      <webElementGuid>9f443ef5-dbb4-428f-a99d-b789fb01c687</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/input</value>
-      <webElementGuid>612d3812-4988-4b00-82ae-f9d9e93ea1f6</webElementGuid>
+      <webElementGuid>5d9167fd-7413-4d99-84b6-1485466cfb59</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'password' and @name = 'password' and @id = 'password' and @placeholder = 'Masukkan password']</value>
-      <webElementGuid>16d0019e-7777-4abc-b78e-39291280437b</webElementGuid>
+      <webElementGuid>130f9d74-fbfa-40f7-93a0-c1116802db0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
