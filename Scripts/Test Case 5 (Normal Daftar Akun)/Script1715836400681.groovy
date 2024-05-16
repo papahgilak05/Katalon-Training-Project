@@ -17,16 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//------------------------Ambil data dari excell----------------------------
-String pathData = 'Data Files/data_excel_daftar_akun'
-
-def hitungbarisexcel = findTestData(pathData).getRowNumbers()
-
 
 // Membuka browser dan mengatur ukuran jendela
 WebUI.openBrowser('')
 WebUI.maximizeWindow()
-
 //-------------------------- Membuka Website Metrodata Academy --------------------------//
 WebUI.navigateToUrl('https://metrodataacademy.id/')
 
@@ -34,48 +28,24 @@ WebUI.navigateToUrl('https://metrodataacademy.id/')
 //screenshoot
 WebUI.takeScreenshot()
 
-//-------------------------- Masuk Kedalam Login Page --------------------------//
+//-------------------------- Masuk Kedalam Daftar Akun Page --------------------------//
 //WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/Button Tiga Garis Di Pojok Kanan Atas'))
 WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/a_Daftar'))
 
-WebUI.delay(2)
+//-------------------------- Masuk Kedalam --------------------------//
+WebUI.setText(findTestObject('Object Repository/Page_Metrodata Academy/input__name'), 'Daftar Akun Coba' )
+WebUI.setText(findTestObject('Object Repository/Page_Metrodata Academy/input__email'), 'testdaftar@gmail.com' )
+WebUI.setText(findTestObject('Object Repository/Page_Metrodata Academy/input__password'), 'XI61MEO8PAA=' )
+WebUI.setText(findTestObject('Object Repository/Page_Metrodata Academy/input__confirmpassword'), 'XI61MEO8PAA=' )
 
-//-------------------------- Masuk Kedalam Daftar Akun --------------------------//
-'Mengisi Formulir Pendaftaran'
-// Memulai perulangan untuk mengisi formulir pendaftaran dengan data dari Excel
+'Klik term condition'
+WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/input__termsCondition'))
 
-for ( int i = 1; i <= hitungbarisexcel.toInteger(); i++) {
-	String nama_lengkap = findTestData(pathData).getValue('nama_lengkap', i)
-	String email = findTestData(pathData).getValue('email', i)
-	String password = findTestData(pathData).getValue('password', i)
-	String confirm_password = findTestData(pathData).getValue('confirm_password', i)
+'Klik Tombol Daftar'
+WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/button_Daftar'))
 
-//------------------------------Cek Get Value Hasil Perulangan-------------------------
-	println("Nama Lengkap ke-"+i+" adalah "+nama_lengkap)
-	println("Email ke-"+i+" adalah "+email)
-	println("Password ke-"+i+" adalah "+password)
-	println("Konfirmasi Password ke-"+i+" adalah "+confirm_password)
-
-// Mengisi formulir pendaftaran dengan data dari Excel
-	WebUI.setText(findTestObject('Object Repository/Page_Metrodata Academy/input__name'), nama_lengkap)
-	WebUI.setText(findTestObject('Object Repository/Page_Metrodata Academy/input__email'), email)
-	WebUI.setText(findTestObject('Object Repository/Page_Metrodata Academy/input__password'), password)
-	WebUI.setText(findTestObject('Object Repository/Page_Metrodata Academy/input__confirmpassword'), confirm_password)
-
-	'Klik term condition'
-	WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/input__termsCondition'))
-	
-	'Klik Tombol Daftar'
-	WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/button_Daftar'))
-	
-	
-	WebUI.takeScreenshot()
-
-	'Klik Daftar Sekarang'
-	WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/a_Daftar Sekarang'))
-	
-	}	
-	
-WebUI.delay(4)
 WebUI.takeScreenshot()
+
+WebUI.delay(4)
+
 WebUI.closeBrowser()
