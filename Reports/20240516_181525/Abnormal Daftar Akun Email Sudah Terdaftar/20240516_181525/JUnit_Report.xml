@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Abnormal Daftar Akun Email Sudah Terdaftar" time="34.459" tests="1" failures="0" errors="0">
+   <testsuite name="Abnormal Daftar Akun Email Sudah Terdaftar" tests="1" failures="0" errors="0" time="34.459" skipped="0" timestamp="16-05-2024T18:15:42" hostname="PEGGY BEDSEPTI W - PEGGY-BEDSEPTIW" id="Test Suites/Abnormal Daftar Akun Email Sudah Terdaftar">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\PEGGY BEDSEPTI W\\git\\KatalonTrainingProjectCase1\\Reports\\20240516_181525\\Abnormal Daftar Akun Email Sudah Terdaftar\\20240516_181525"/>
+         <property name="logFiles" value="C:\\Users\\PEGGY BEDSEPTI W\\git\\KatalonTrainingProjectCase1\\Reports\\20240516_181525\\Abnormal Daftar Akun Email Sudah Terdaftar\\20240516_181525\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\PEGGY BEDSEPTI W\\git\\KatalonTrainingProjectCase1\\Reports\\20240516_181525\\Abnormal Daftar Akun Email Sudah Terdaftar\\20240516_181525\\1715858163920.png, C:\\Users\\PEGGY BEDSEPTI W\\git\\KatalonTrainingProjectCase1\\Reports\\20240516_181525\\Abnormal Daftar Akun Email Sudah Terdaftar\\20240516_181525\\1715858171619.png"/>
+         <property name="hostName" value="PEGGY BEDSEPTI W - PEGGY-BEDSEPTIW"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Chrome 124.0.0.0"/>
+         <property name="hostAddress" value="172.20.10.9"/>
+         <property name="sessionId" value="f4003663c9bddcdb3f3c3e1a3c013880"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test Case 7 (Abnormal Daftar Akun Email Sudah Terdaftar)" time="33.541" classname="Test Cases/Test Case 7 (Abnormal Daftar Akun Email Sudah Terdaftar)" status="PASSED">
+         <system-out><![CDATA[16-05-2024T18:15:43 - [TEST_CASE][PASSED] - Test Cases/Test Case 7 (Abnormal Daftar Akun Email Sudah Terdaftar): Test Cases/Test Case 7 (Abnormal Daftar Akun Email Sudah Terdaftar)
+
+16-05-2024T18:15:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+16-05-2024T18:15:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+16-05-2024T18:15:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-05-2024T18:15:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+16-05-2024T18:15:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+16-05-2024T18:15:48 - [MESSAGE][PASSED] - Current window maximized
+
+16-05-2024T18:15:48 - [TEST_STEP][PASSED] - navigateToUrl("https://metrodataacademy.id/"): Navigate to 'https://metrodataacademy.id/' successfully
+
+16-05-2024T18:15:50 - [MESSAGE][PASSED] - Navigate to 'https://metrodataacademy.id/' successfully
+
+16-05-2024T18:15:50 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+16-05-2024T18:16:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PEGGY BEDSEPTI W\\git\\KatalonTrainingProjectCase1\\Reports\\20240516_181525\\Abnormal Daftar Akun Email Sudah Terdaftar\\20240516_181525\\1715858163920.png]]
+
+16-05-2024T18:16:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Metrodata Academy/a_Daftar")): Object: 'Object Repository/Page_Metrodata Academy/a_Daftar' is clicked on
+
+16-05-2024T18:16:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metrodata Academy/a_Daftar' is clicked on
+
+16-05-2024T18:16:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Metrodata Academy/input__name"), "Daftar Akun Coba"): Text 'Daftar Akun Coba' is set on object 'Object Repository/Page_Metrodata Academy/input__name'
+
+16-05-2024T18:16:07 - [MESSAGE][PASSED] - Text 'Daftar Akun Coba' is set on object 'Object Repository/Page_Metrodata Academy/input__name'
+
+16-05-2024T18:16:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Metrodata Academy/input__email"), "testdaftar@gmail.com"): Text 'testdaftar@gmail.com' is set on object 'Object Repository/Page_Metrodata Academy/input__email'
+
+16-05-2024T18:16:08 - [MESSAGE][PASSED] - Text 'testdaftar@gmail.com' is set on object 'Object Repository/Page_Metrodata Academy/input__email'
+
+16-05-2024T18:16:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Metrodata Academy/input__password"), "XI61MEO8PAA="): Text 'XI61MEO8PAA=' is set on object 'Object Repository/Page_Metrodata Academy/input__password'
+
+16-05-2024T18:16:08 - [MESSAGE][PASSED] - Text 'XI61MEO8PAA=' is set on object 'Object Repository/Page_Metrodata Academy/input__password'
+
+16-05-2024T18:16:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Metrodata Academy/input__confirmpassword"), "XI61MEO8PAA="): Text 'XI61MEO8PAA=' is set on object 'Object Repository/Page_Metrodata Academy/input__confirmpassword'
+
+16-05-2024T18:16:09 - [MESSAGE][PASSED] - Text 'XI61MEO8PAA=' is set on object 'Object Repository/Page_Metrodata Academy/input__confirmpassword'
+
+16-05-2024T18:16:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Metrodata Academy/input__termsCondition")): Object: 'Object Repository/Page_Metrodata Academy/input__termsCondition' is clicked on
+
+16-05-2024T18:16:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metrodata Academy/input__termsCondition' is clicked on
+
+16-05-2024T18:16:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Metrodata Academy/button_Daftar")): Object: 'Object Repository/Page_Metrodata Academy/button_Daftar' is clicked on
+
+16-05-2024T18:16:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metrodata Academy/button_Daftar' is clicked on
+
+16-05-2024T18:16:10 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Page_Metrodata Academy/input__email"), 5)): null
+
+16-05-2024T18:16:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Metrodata Academy/input__email' is present
+
+16-05-2024T18:16:11 - [TEST_STEP][PASSED] - println("Error: Email sudah terdaftar"): null
+
+16-05-2024T18:16:11 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+16-05-2024T18:16:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\PEGGY BEDSEPTI W\\git\\KatalonTrainingProjectCase1\\Reports\\20240516_181525\\Abnormal Daftar Akun Email Sudah Terdaftar\\20240516_181525\\1715858171619.png]]
+
+16-05-2024T18:16:11 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+16-05-2024T18:16:16 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+16-05-2024T18:16:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+16-05-2024T18:16:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[16-05-2024T18:15:42 - [TEST_SUITE][PASSED] - Abnormal Daftar Akun Email Sudah Terdaftar: Test Cases/Test Case 7 (Abnormal Daftar Akun Email Sudah Terdaftar)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
