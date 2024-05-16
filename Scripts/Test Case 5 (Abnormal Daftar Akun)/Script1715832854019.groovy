@@ -23,6 +23,7 @@ WebUI.maximizeWindow()
 WebUI.navigateToUrl('https://metrodataacademy.id/')
 
 'Berhasil Membuka Website Metrodata Academy'
+//screenshoot
 WebUI.takeScreenshot()
 
 //-------------------------- Masuk Kedalam Login Page --------------------------//
@@ -31,4 +32,4 @@ WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/a_Daftar'))
 
 //-------------------------- Masuk Kedalam --------------------------//
 
-WebUI.setText(findTestObject('Object Repository/Page_Metrodata Academy/'), '')
+WebUI.setText(findTestObject('Object Repository/Page_Metrodata Academy/'), )
