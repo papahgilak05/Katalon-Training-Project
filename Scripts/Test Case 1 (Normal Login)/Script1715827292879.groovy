@@ -18,26 +18,33 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil
 
+//-------------------------- Membuka Browser --------------------------------------------//
 WebUI.openBrowser('')
 WebUI.maximizeWindow()
+
 //-------------------------- Membuka Website Metrodata Academy --------------------------//
 WebUI.navigateToUrl('https://metrodataacademy.id/')
 
 'Berhasil Membuka Website Metrodata Academy'
 WebUI.takeScreenshot()
 
-//-------------------------- Masuk Kedalam Login Page --------------------------//
+//-------------------------- Masuk Kedalam Login Page ------------------------------------//
 //WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/Button Tiga Garis Di Pojok Kanan Atas'))
 WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/a_Masuk'))
+'Halaman Login Page'
+WebUI.takeScreenshot()
 
-//-------------------------- Masuk Kedalam --------------------------//
+//-------------------------- Memasukan Inputan Login -------------------------------------//
 WebUI.setText(findTestObject('Object Repository/Page_Metrodata Academy/input__email'), 'papahgilak@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Metrodata Academy/input__password'), 'ANgLrNN9LeX238E+iUxpGw==')
+'Melakukan Input Data Login'
+WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/button_Masuk'))
 WebUI.delay(4)
 
+//------------------------- Percabangan Kondisi Login -----------------------------------//
 if (WebUI.verifyTextPresent('Lihat Program', false)) {
 	KeywordUtil.logInfo('Berhasil Login' + WebUI.takeScreenshot())
 } else {
@@ -46,9 +53,12 @@ if (WebUI.verifyTextPresent('Lihat Program', false)) {
 
 WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/button_M Gilang Rizky Ramadhan'))
 
+
+//------------------------- Logout -------------------------------------------------------//
+WebUI.delay(4)
+'Logout'
+WebUI.takeScreenshot()
 WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/button_Keluar'))
 
+
 WebUI.closeBrowser()
-
-
-
