@@ -17,8 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+
+// Membuka browser dan mengatur ukuran jendela
 WebUI.openBrowser('')
 WebUI.maximizeWindow()
+
 //-------------------------- Membuka Website Metrodata Academy --------------------------//
 WebUI.navigateToUrl('https://metrodataacademy.id/')
 
@@ -26,13 +29,27 @@ WebUI.navigateToUrl('https://metrodataacademy.id/')
 //screenshoot
 WebUI.takeScreenshot()
 
-//-------------------------- Masuk Kedalam Login Page --------------------------//
+//-------------------------- Masuk Kedalam Daftar Akun Page --------------------------//
 //WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/Button Tiga Garis Di Pojok Kanan Atas'))
 WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/a_Daftar'))
 
 //-------------------------- Masuk Kedalam --------------------------//
+WebUI.setText(findTestObject('Object Repository/Page_Metrodata Academy/input__name'), 'Daftar Akun Coba' )
+WebUI.setText(findTestObject('Object Repository/Page_Metrodata Academy/input__email'), 'testdaftar@gmail.com' )
+WebUI.setText(findTestObject('Object Repository/Page_Metrodata Academy/input__password'), 'XI61MEO8PAA=' )
+WebUI.setText(findTestObject('Object Repository/Page_Metrodata Academy/input__confirmpassword'), 'XI61MEO8PAA=' )
 
-WebUI.setText(findTestObject('Object Repository/Page_Metrodata Academy/input_name'), 'Btari Putri' )
-WebUI.setText(findTestObject('Object Repository/Page_Metrodata Academy/input_email'), '' )
-WebUI.setText(findTestObject('Object Repository/Page_Metrodata Academy/input_email'), '' )
+'Klik term condition'
+WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/input__termsCondition'))
 
+'Klik Tombol Daftar'
+WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/button_Daftar'))
+
+// Cek apakah ada pesan kesalahan bahwa email sudah pernah didaftarkan
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Metrodata Academy/input__email'), 5)) {
+    println('Error: Email sudah terdaftar')
+}
+	
+WebUI.takeScreenshot()
+WebUI.delay(4)
+WebUI.closeBrowser()
