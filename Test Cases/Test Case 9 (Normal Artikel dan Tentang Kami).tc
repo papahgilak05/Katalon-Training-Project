@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Test Case 4 (Abnormal Login)</name>
+   <name>Test Case 9 (Normal Artikel dan Tentang Kami)</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>da4a6fd8-e0d9-4585-89d1-3d8b41f87127</testCaseGuid>
+   <testCaseGuid>b0a7ca83-75bc-43ed-99e4-a4b203843fa8</testCaseGuid>
 </TestCaseEntity>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_MARCHVELOUS   Buka Potensi Terbaik Kalian_84380c</name>
+   <tag></tag>
+   <elementGuidId>b30856b8-ead1-488b-81ac-37ce6f99e863</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div[2]/article/div[2]/div/h3/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;MARCHVELOUS : Buka Potensi Terbaik Kalian Di Bidang IT Dengan Harga Hemat&quot;i] >> internal:role=link</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>b7b35822-ea26-4aba-970f-147d0b3efd83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/article/detail/marchvelous-buka-potensi-terbaik</value>
+      <webElementGuid>4a8bea6f-1750-496d-9146-88d3ca88c175</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>MARCHVELOUS :  Buka Potensi Terbaik Kalian Di Bidang IT Dengan Harga Hemat</value>
+      <webElementGuid>29969277-0579-4099-b15b-0a840c7eb0dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;bg-cerulean-50 lg:px-[108px] px-9 pt-40 lg:pb-24 pb-8&quot;]/div[@class=&quot;mx-auto max-w-7xl&quot;]/div[@class=&quot;grid w-full mx-auto md:grid-cols-2 place-items-start gap-x-11 gap-y-20 lg:mx-0&quot;]/article[@class=&quot;flex flex-col items-start justify-between&quot;]/div[2]/div[@class=&quot;relative group&quot;]/h3[@class=&quot;mt-2 text-2xl md:text-[32px] font-bold tracking-[-0.32px] leading-10 text-gray-900 hover:underline underline-offset-2 line-clamp-2&quot;]/a[1]</value>
+      <webElementGuid>8d75515e-eebf-466c-851f-42c8fed5fae8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div[2]/article/div[2]/div/h3/a</value>
+      <webElementGuid>1499556e-b087-4f38-aa28-63764c664b9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'MARCHVELOUS :  Buka Potensi Terbaik Kalian Di Bidang IT Dengan Harga Hemat')]</value>
+      <webElementGuid>d3010eb1-5f3f-4ba4-bcb6-0e85ee517b95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Artikel, Informasi, dan Promosi Metrodata Academy'])[1]/following::a[1]</value>
+      <webElementGuid>16e9e576-6910-47e4-8e9b-caec749a5c78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar'])[1]/following::a[1]</value>
+      <webElementGuid>4aa3ad02-9506-4b2d-8be7-a8a977f2f793</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Metrodata Academy Home'])[1]/preceding::a[1]</value>
+      <webElementGuid>da93d44e-5295-4a14-8896-f4643240c56a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PROMO'])[1]/preceding::a[1]</value>
+      <webElementGuid>8d193cc4-92f4-47fc-8026-15a6e8d4dfd8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/article/detail/marchvelous-buka-potensi-terbaik')]</value>
+      <webElementGuid>7de7c7c6-0a36-4d43-83d6-562ac8c8bfa6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h3/a</value>
+      <webElementGuid>9ce9c4ff-6564-4567-9b6e-2642790cc82d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/article/detail/marchvelous-buka-potensi-terbaik' and (text() = 'MARCHVELOUS :  Buka Potensi Terbaik Kalian Di Bidang IT Dengan Harga Hemat' or . = 'MARCHVELOUS :  Buka Potensi Terbaik Kalian Di Bidang IT Dengan Harga Hemat')]</value>
+      <webElementGuid>0cdd8915-7ebd-49c5-80c0-7de9bfc18540</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
