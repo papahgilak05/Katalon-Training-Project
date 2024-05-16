@@ -31,8 +31,7 @@ WebUI.takeScreenshot()
 //WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/Button Tiga Garis Di Pojok Kanan Atas'))
 WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/a_Daftar'))
 
-//-------------------------- Masuk Kedalam --------------------------//
-
+//-------------------------- Melakukan input data--------------------------//
 
 String name = 'Daftar Akun Coba'
 String email = 'testdaftar@gmail.com'
