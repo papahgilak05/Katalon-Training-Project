@@ -36,6 +36,8 @@ WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/a_Lupa Pass
 WebUI.setText(findTestObject('Object Repository/Page_Metrodata Academy/input__email'), 'coba.mail')
 WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/button_Atur_Ulang'))
 
+WebUI.takeScreenshot()
+
 WebUI.delay(4)
 
 WebUI.closeBrowser()
