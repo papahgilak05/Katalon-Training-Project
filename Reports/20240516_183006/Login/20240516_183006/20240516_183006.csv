@@ -1,0 +1,55 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 124.0.0.0,,,16-05-2024 18:30:14,16-05-2024 18:42:37,12m - 22.857s,FAILED
+,,,,,,,
+Test Cases/Test Case 1 (Normal Login),Chrome 124.0.0.0,,,16-05-2024 18:30:14,16-05-2024 18:32:01,1m - 46.656s,PASSED
+"openBrowser("""")",Chrome 124.0.0.0,,,16-05-2024 18:30:15,16-05-2024 18:30:18,3.324s,PASSED
+maximizeWindow(),Chrome 124.0.0.0,,,16-05-2024 18:30:18,16-05-2024 18:30:18,0.174s,PASSED
+"navigateToUrl(""https://metrodataacademy.id/"")",Chrome 124.0.0.0,,,16-05-2024 18:30:18,16-05-2024 18:30:33,14.397s,PASSED
+takeScreenshot(),Chrome 124.0.0.0,Berhasil Membuka Website Metrodata Academy,,16-05-2024 18:30:33,16-05-2024 18:30:34,0.908s,PASSED
+"click(findTestObject(""Object Repository/Page_Metrodata Academy/a_Masuk""))",Chrome 124.0.0.0,,,16-05-2024 18:30:34,16-05-2024 18:31:09,35.611s,PASSED
+takeScreenshot(),Chrome 124.0.0.0,Halaman Login Page,,16-05-2024 18:31:09,16-05-2024 18:31:12,2.446s,PASSED
+"setText(findTestObject(""Object Repository/Page_Metrodata Academy/input__email""), ""papahgilak@gmail.com"")",Chrome 124.0.0.0,,,16-05-2024 18:31:12,16-05-2024 18:31:12,0.806s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Metrodata Academy/input__password""), ""ANgLrNN9LeX238E+iUxpGw=="")",Chrome 124.0.0.0,,,16-05-2024 18:31:12,16-05-2024 18:31:13,0.490s,PASSED
+takeScreenshot(),Chrome 124.0.0.0,Melakukan Input Data Login,,16-05-2024 18:31:13,16-05-2024 18:31:14,0.686s,PASSED
+"click(findTestObject(""Object Repository/Page_Metrodata Academy/button_Masuk""))",Chrome 124.0.0.0,,,16-05-2024 18:31:14,16-05-2024 18:31:14,0.552s,PASSED
+delay(4),Chrome 124.0.0.0,,,16-05-2024 18:31:14,16-05-2024 18:31:18,4.074s,PASSED
+"if (verifyTextPresent(""Lihat Program"", false))",Chrome 124.0.0.0,,,16-05-2024 18:31:18,16-05-2024 18:31:23,4.867s,PASSED
+"click(findTestObject(""Object Repository/Page_Metrodata Academy/button_M Gilang Rizky Ramadhan""))",Chrome 124.0.0.0,,,16-05-2024 18:31:23,16-05-2024 18:31:24,0.541s,PASSED
+delay(4),Chrome 124.0.0.0,,,16-05-2024 18:31:24,16-05-2024 18:31:28,4.013s,PASSED
+takeScreenshot(),Chrome 124.0.0.0,Logout,,16-05-2024 18:31:28,16-05-2024 18:31:28,0.760s,PASSED
+"click(findTestObject(""Object Repository/Page_Metrodata Academy/button_Keluar""))",Chrome 124.0.0.0,,,16-05-2024 18:31:28,16-05-2024 18:32:00,31.616s,PASSED
+closeBrowser(),Chrome 124.0.0.0,,,16-05-2024 18:32:00,16-05-2024 18:32:01,0.686s,PASSED
+,,,,,,,
+Test Cases/Test Case 10 (Abnormal Login Lupa Password),Chrome 124.0.0.0,,,16-05-2024 18:32:01,16-05-2024 18:32:58,57.387s,PASSED
+"openBrowser("""")",Chrome 124.0.0.0,,,16-05-2024 18:32:01,16-05-2024 18:32:02,1.347s,PASSED
+maximizeWindow(),Chrome 124.0.0.0,,,16-05-2024 18:32:02,16-05-2024 18:32:02,0.054s,PASSED
+"navigateToUrl(""https://metrodataacademy.id/"")",Chrome 124.0.0.0,,,16-05-2024 18:32:02,16-05-2024 18:32:05,2.464s,PASSED
+takeScreenshot(),Chrome 124.0.0.0,Berhasil Membuka Website Metrodata Academy,,16-05-2024 18:32:05,16-05-2024 18:32:18,13.470s,PASSED
+"click(findTestObject(""Object Repository/Page_Metrodata Academy/a_Masuk""))",Chrome 124.0.0.0,,,16-05-2024 18:32:18,16-05-2024 18:32:51,32.532s,PASSED
+"click(findTestObject(""Object Repository/Page_Metrodata Academy/a_Lupa Password""))",Chrome 124.0.0.0,klik Lupa Password?,,16-05-2024 18:32:51,16-05-2024 18:32:51,0.523s,PASSED
+"setText(findTestObject(""Object Repository/Page_Metrodata Academy/input__email""), ""coba.mail"")",Chrome 124.0.0.0,,,16-05-2024 18:32:51,16-05-2024 18:32:52,0.829s,PASSED
+"click(findTestObject(""Object Repository/Page_Metrodata Academy/button_Atur_Ulang""))",Chrome 124.0.0.0,,,16-05-2024 18:32:52,16-05-2024 18:32:53,0.501s,PASSED
+takeScreenshot(),Chrome 124.0.0.0,,,16-05-2024 18:32:53,16-05-2024 18:32:54,0.969s,PASSED
+delay(4),Chrome 124.0.0.0,,,16-05-2024 18:32:54,16-05-2024 18:32:58,4.045s,PASSED
+closeBrowser(),Chrome 124.0.0.0,,,16-05-2024 18:32:58,16-05-2024 18:32:58,0.423s,PASSED
+,,,,,,,
+Test Cases/Test Case 11 (Abnormal Login Validasi Field),Chrome 124.0.0.0,,,16-05-2024 18:35:16,16-05-2024 18:36:06,49.803s,FAILED
+"openBrowser("""")",Chrome 124.0.0.0,,,16-05-2024 18:35:16,16-05-2024 18:35:18,1.877s,PASSED
+maximizeWindow(),Chrome 124.0.0.0,,,16-05-2024 18:35:18,16-05-2024 18:35:18,0.213s,PASSED
+"navigateToUrl(""https://metrodataacademy.id/"")",Chrome 124.0.0.0,,,16-05-2024 18:35:18,16-05-2024 18:35:33,15.034s,PASSED
+takeScreenshot(),Chrome 124.0.0.0,Berhasil Membuka Website Metrodata Academy,,16-05-2024 18:35:33,16-05-2024 18:35:34,0.662s,PASSED
+"click(findTestObject(""Object Repository/Page_Metrodata Academy/a_Masuk""))",Chrome 124.0.0.0,,,16-05-2024 18:35:34,16-05-2024 18:36:06,31.967s,FAILED
+,,,,,,,
+Test Cases/Test Case 4 (Abnormal Login Pass Tidak Sesuai),Chrome 124.0.0.0,,,16-05-2024 18:38:23,16-05-2024 18:39:12,49.451s,FAILED
+"openBrowser("""")",Chrome 124.0.0.0,,,16-05-2024 18:38:23,16-05-2024 18:38:25,2.020s,PASSED
+maximizeWindow(),Chrome 124.0.0.0,,,16-05-2024 18:38:25,16-05-2024 18:38:25,0.098s,PASSED
+"navigateToUrl(""https://metrodataacademy.id/"")",Chrome 124.0.0.0,,,16-05-2024 18:38:25,16-05-2024 18:38:40,14.912s,PASSED
+takeScreenshot(),Chrome 124.0.0.0,Berhasil Membuka Website Metrodata Academy,,16-05-2024 18:38:40,16-05-2024 18:38:40,0.633s,PASSED
+"click(findTestObject(""Object Repository/Page_Metrodata Academy/a_Masuk""))",Chrome 124.0.0.0,,,16-05-2024 18:38:40,16-05-2024 18:39:12,31.752s,FAILED
+,,,,,,,
+Test Cases/Test Case 8 (Abnormal Login Email Tidak Sesuai),Chrome 124.0.0.0,,,16-05-2024 18:41:46,16-05-2024 18:42:37,50.018s,FAILED
+"openBrowser("""")",Chrome 124.0.0.0,,,16-05-2024 18:41:47,16-05-2024 18:41:48,1.858s,PASSED
+maximizeWindow(),Chrome 124.0.0.0,,,16-05-2024 18:41:48,16-05-2024 18:41:49,0.443s,PASSED
+"navigateToUrl(""https://metrodataacademy.id/"")",Chrome 124.0.0.0,,,16-05-2024 18:41:49,16-05-2024 18:42:04,15.264s,PASSED
+takeScreenshot(),Chrome 124.0.0.0,Berhasil Membuka Website Metrodata Academy,,16-05-2024 18:42:04,16-05-2024 18:42:05,0.654s,PASSED
+"click(findTestObject(""Object Repository/Page_Metrodata Academy/a_Masuk""))",Chrome 124.0.0.0,,,16-05-2024 18:42:05,16-05-2024 18:42:36,31.771s,FAILED
