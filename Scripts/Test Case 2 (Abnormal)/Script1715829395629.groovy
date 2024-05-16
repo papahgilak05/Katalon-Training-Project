@@ -17,3 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+// Membuka browser dan mengatur ukuran jendela
+WebUI.openBrowser('')
+WebUI.maximizeWindow()
+//-------------------------- Membuka Website Metrodata Academy --------------------------//
+WebUI.navigateToUrl('https://metrodataacademy.id/')
+
+'Berhasil Membuka Website Metrodata Academy'
+//screenshoot
+WebUI.takeScreenshot()
+
+//-------------------------- Masuk Kedalam Daftar Akun Page --------------------------//
+//WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/Button Tiga Garis Di Pojok Kanan Atas'))
+WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/a_Daftar'))
+
+'Klik Masuk Sekarang'
+WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/Masuk_sekarang'))
+
+WebUI.delay(2)
+
+WebUI.takeScreenshot()
+
+WebUI.delay(2)
+
+WebUI.closeBrowser()
