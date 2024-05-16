@@ -16,9 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil
 
-
-// Membuka browser dan mengatur ukuran jendela
+//-------------------------- Membuka Browser --------------------------------------------//
 WebUI.openBrowser('')
 WebUI.maximizeWindow()
 
@@ -26,30 +26,31 @@ WebUI.maximizeWindow()
 WebUI.navigateToUrl('https://metrodataacademy.id/')
 
 'Berhasil Membuka Website Metrodata Academy'
-//screenshoot
 WebUI.takeScreenshot()
 
-//-------------------------- Masuk Kedalam Daftar Akun Page --------------------------//
+//-------------------------- Masuk Kedalam Login Page ------------------------------------//
 //WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/Button Tiga Garis Di Pojok Kanan Atas'))
-WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/a_Daftar'))
+WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/a_Masuk'))
+'Halaman Login Page'
+WebUI.takeScreenshot()
 
-//-------------------------- Masuk Kedalam --------------------------//
-WebUI.setText(findTestObject('Object Repository/Page_Metrodata Academy/input__name'), 'Daftar Akun Coba' )
-WebUI.setText(findTestObject('Object Repository/Page_Metrodata Academy/input__email'), 'testdaftar@gmail.com' )
-WebUI.setText(findTestObject('Object Repository/Page_Metrodata Academy/input__password'), 'XI61MEO8PAA=' )
-WebUI.setText(findTestObject('Object Repository/Page_Metrodata Academy/input__confirmpassword'), 'XI61MEO8PAA=' )
+//-------------------------- Memasukan Inputan Login --------------------------//
 
-'Klik term condition'
-WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/input__termsCondition'))
+String email = 'testdaftar@gmail.com'
+String password = ''
+
+WebUI.setText(findTestObject('Object Repository/Page_Metrodata Academy/input__email'), email)
+WebUI.setText(findTestObject('Object Repository/Page_Metrodata Academy/input__password'), password )
+	
+
+if (email.isEmpty() || password.isEmpty() ) {
+    println("Error: Ada field yang kosong!")
+}
 
 'Klik Tombol Daftar'
-WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/button_Daftar'))
+WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/button_Masuk'))
 
-// Cek apakah ada pesan kesalahan bahwa email sudah pernah didaftarkan
-if (WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Metrodata Academy/input__email'), 5)) {
-    println('Error: Email sudah terdaftar')
-}
-	
 WebUI.takeScreenshot()
+
 WebUI.delay(4)
 WebUI.closeBrowser()

@@ -21,6 +21,7 @@ import org.openqa.selenium.Keys as Keys
 // Membuka browser dan mengatur ukuran jendela
 WebUI.openBrowser('')
 WebUI.maximizeWindow()
+
 //-------------------------- Membuka Website Metrodata Academy --------------------------//
 WebUI.navigateToUrl('https://metrodataacademy.id/')
 
@@ -44,8 +45,11 @@ WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/input__term
 'Klik Tombol Daftar'
 WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/button_Daftar'))
 
+// Cek apakah ada pesan kesalahan bahwa email sudah pernah didaftarkan
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Metrodata Academy/input__email'), 5)) {
+    println('Error: Email sudah terdaftar')
+}
+	
 WebUI.takeScreenshot()
-
 WebUI.delay(4)
-
 WebUI.closeBrowser()
