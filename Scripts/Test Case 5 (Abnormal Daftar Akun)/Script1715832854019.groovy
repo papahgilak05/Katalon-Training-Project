@@ -30,3 +30,5 @@ WebUI.takeScreenshot()
 WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/a_Daftar'))
 
 //-------------------------- Masuk Kedalam --------------------------//
+
+WebUI.setText(findTestObject('Object Repository/Page_Metrodata Academy/'), '')
