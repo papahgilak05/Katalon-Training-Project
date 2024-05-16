@@ -23,16 +23,21 @@ WebUI.maximizeWindow()
 WebUI.navigateToUrl('https://metrodataacademy.id/')
 
 'Berhasil Membuka Website Metrodata Academy'
-//screenshoot
 WebUI.takeScreenshot()
 
 //-------------------------- Masuk Kedalam Login Page --------------------------//
 //WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/Button Tiga Garis Di Pojok Kanan Atas'))
-WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/a_Daftar'))
+WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/a_Masuk'))
 
 //-------------------------- Masuk Kedalam --------------------------//
+'klik Lupa Password?'
+WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/a_Lupa Password'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Metrodata Academy/input_name'), 'Btari Putri' )
-WebUI.setText(findTestObject('Object Repository/Page_Metrodata Academy/input_email'), 'Btari Putri' )
+WebUI.setText(findTestObject('Object Repository/Page_Metrodata Academy/input__email'), 'coba.mail')
+WebUI.click(findTestObject('Object Repository/Page_Metrodata Academy/button_Atur_Ulang'))
 
+WebUI.takeScreenshot()
 
+WebUI.delay(4)
+
+WebUI.closeBrowser()
