@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>79d3b469-fd43-4f99-94ba-89ad18bbf5ce</webElementGuid>
+      <webElementGuid>39523090-01dc-46af-ab89-b75168f06cbc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>text-cerulean-600 text-xs font-medium leading-[18px]</value>
-      <webElementGuid>2fb77b56-32da-48a8-9d97-2f9b97bcf27c</webElementGuid>
+      <webElementGuid>03e3b5a3-98d0-4f9f-b12e-ea488393fa84</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/forget-password</value>
-      <webElementGuid>ecdbc222-78c6-41b2-8d35-5ab7f4efb366</webElementGuid>
+      <webElementGuid>14111abb-3855-45b2-8aa5-0a23586665c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Lupa Password?</value>
-      <webElementGuid>c6a680d7-f683-486c-ab2d-60bfdf035a77</webElementGuid>
+      <webElementGuid>82dd5966-866f-49c7-9d89-be97fc0df2f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,15 +61,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;grid h-screen grid-cols-1 lg:grid-cols-2&quot;]/div[@class=&quot;flex flex-col justify-center items-center gap-10&quot;]/div[@class=&quot;flex flex-col justify-center w-screen p-8 lg:w-3/4 gap-[23px]&quot;]/form[@class=&quot;flex flex-col gap-[23px]&quot;]/div[@class=&quot;flex items-center justify-between&quot;]/div[@class=&quot;flex&quot;]/a[@class=&quot;text-cerulean-600 text-xs font-medium leading-[18px]&quot;]</value>
-      <webElementGuid>910873d1-3a7d-47c3-a94b-8710caad6668</webElementGuid>
+      <webElementGuid>8c370e5e-cc38-490d-baca-bd75927961ec</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/div/form/div[2]/div[2]/a</value>
-      <webElementGuid>57e0a02c-e663-40a8-85da-f45f94b9ebbd</webElementGuid>
+      <webElementGuid>82f13987-a0cb-4961-b5b3-c3c2afe5f63f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Lupa Password?')]</value>
-      <webElementGuid>6c99f032-5767-43db-9028-3beaffb9e8c8</webElementGuid>
+      <webElementGuid>f8622d10-9748-49ab-b75f-cea4304e4c1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ingat saya'])[1]/following::a[1]</value>
-      <webElementGuid>61e99aae-8a62-4828-8a6b-61c3c89c8797</webElementGuid>
+      <webElementGuid>1a1116b1-6cf2-4c9f-b9d7-e011006edf41</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/following::a[1]</value>
-      <webElementGuid>c90b8f21-45fc-4ce6-81d5-3c39f712849f</webElementGuid>
+      <webElementGuid>c46c941e-8da6-49ea-9884-cfb12825a132</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk'])[1]/preceding::a[1]</value>
-      <webElementGuid>a16026ee-48bd-4901-aa5b-a01abee5ff75</webElementGuid>
+      <webElementGuid>b5006e8d-de8f-4247-8800-ce4a8671b22f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Lupa Password?']/parent::*</value>
-      <webElementGuid>13dcef62-458b-4af7-ab2d-829612e2bfca</webElementGuid>
+      <webElementGuid>08e90492-5815-4442-945c-2b5755ef5c31</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/forget-password')]</value>
-      <webElementGuid>9d7e0a6f-1dee-4ebf-8d0e-3f5cd8981757</webElementGuid>
+      <webElementGuid>890ed9d0-8491-49dc-a526-c5ceba4ef6ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a</value>
-      <webElementGuid>8a4ccaf1-17e1-4f60-bc64-b31f905adcb9</webElementGuid>
+      <webElementGuid>89028809-5aee-4221-8ddf-d151067ee755</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/forget-password' and (text() = 'Lupa Password?' or . = 'Lupa Password?')]</value>
-      <webElementGuid>b1f5749d-71c8-435c-8cb0-e7f32ef982e6</webElementGuid>
+      <webElementGuid>64fcb21e-4c92-40ba-8496-905ed51f413c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

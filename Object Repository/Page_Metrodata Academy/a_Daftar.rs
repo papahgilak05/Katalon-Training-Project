@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Data Akun</name>
+   <name>a_Daftar</name>
    <tag></tag>
-   <elementGuidId>1a8720fe-b828-45a5-b759-fee43f2ed261</elementGuidId>
+   <elementGuidId>d4fe3733-fb83-4b04-b866-d16daf7a66aa</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,14 +11,14 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/ul/li[2]/a</value>
+         <value>//div[@id='root']/div/header/nav/div[4]/div/a[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;Data Akun&quot;i]</value>
+         <value>internal:role=link[name=&quot;Daftar&quot;s]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,118 +29,110 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>f2933fb2-0792-4e92-bf8d-7c6ee81ab3f1</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>text-xl font-medium leading-6 </value>
-      <webElementGuid>65782bd7-5207-49ba-aab6-4d2e9c4347ce</webElementGuid>
+      <webElementGuid>8fb4d37d-df03-4ff4-9fa3-7cca32dc524c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/profile</value>
-      <webElementGuid>9b44c805-f1b4-43a4-8bda-61fd53b69349</webElementGuid>
+      <value>/sign-up</value>
+      <webElementGuid>61c85e93-20a5-40af-8e1b-f1f74325895b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>-mx-3 block rounded-lg px-8 py-4 text-base font-semibold leading-7 text-white bg-cerulean-600 hover:bg-cerulean-700</value>
+      <webElementGuid>430a66cc-dda0-4199-8961-28479abac589</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Data Akun</value>
-      <webElementGuid>293a897f-54d7-4b66-bb62-8ff1829b473d</webElementGuid>
+      <value>Daftar </value>
+      <webElementGuid>62287896-c1af-42eb-90b7-5269113cce1c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[1]/div[1]/div[@class=&quot;flex flex-col lg:px-[108px] px-8 py-32 sm:flex-row gap-x-[30px] sm:items-start&quot;]/ul[@class=&quot;shrink-0 p-10 pl-5 border rounded-lg hidden sm:grid sm:grid-cols-1 sm:gap-y-[30px] shadow-md&quot;]/li[@class=&quot;hover:text-blue-600&quot;]/a[@class=&quot;text-xl font-medium leading-6&quot;]</value>
-      <webElementGuid>b238a613-3f40-4501-90c6-1f6b6715a53c</webElementGuid>
+      <value>id(&quot;root&quot;)/div[1]/header[@class=&quot;fixed top-0 left-0 right-0 z-10 bg-white sm:z-40 shadow-md&quot;]/nav[@class=&quot;flex items-center justify-between lg:px-[108px] xl:py-2 xl:h-[92px] py-6 px-8 xl:justify-center&quot;]/div[@class=&quot;hidden gap-6 my-4 ml- xl:flex xl:flex-1 xl:justify-end&quot;]/div[@class=&quot;flex flex-col gap-4 lg:flex-row items-center&quot;]/a[@class=&quot;-mx-3 block rounded-lg px-8 py-4 text-base font-semibold leading-7 text-white bg-cerulean-600 hover:bg-cerulean-700&quot;]</value>
+      <webElementGuid>e4278f63-af2f-4756-bd46-c247daba898e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/div/ul/li[2]/a</value>
-      <webElementGuid>7806ed90-badc-447c-b125-a67b41b61b93</webElementGuid>
+      <value>//div[@id='root']/div/header/nav/div[4]/div/a[2]</value>
+      <webElementGuid>88e67c58-be7f-456c-a65e-52f69861d632</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Data Akun')]</value>
-      <webElementGuid>a55c2ad1-69a1-40e0-a638-c337a759f72c</webElementGuid>
+      <value>//a[contains(text(),'Daftar')]</value>
+      <webElementGuid>bd4e3708-2794-44f8-abed-31fd71469290</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profil'])[1]/following::a[1]</value>
-      <webElementGuid>08bb05cd-24a0-411e-88d2-7211fef608a4</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk'])[1]/following::a[1]</value>
+      <webElementGuid>9ac97acd-f200-49cf-b1fd-02c8854f33f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='M Gilang Rizky Ramadhan'])[1]/following::a[2]</value>
-      <webElementGuid>4094cf4e-1654-49fb-a953-487b72419368</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tentang Kami'])[1]/following::a[2]</value>
+      <webElementGuid>72e75900-99c2-4449-93e8-74445875869a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email Langganan'])[1]/preceding::a[1]</value>
-      <webElementGuid>ab2abab1-cdd2-44cf-9186-1a8cf0eb3a46</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Artikel, Informasi, dan Promosi Metrodata Academy'])[1]/preceding::a[1]</value>
+      <webElementGuid>26ff5a67-3383-4403-9187-6132ef485411</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aktivitas'])[1]/preceding::a[2]</value>
-      <webElementGuid>8e654cb1-1b41-4d12-afbd-1786adc00971</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Data Akun']/parent::*</value>
-      <webElementGuid>f8c3e847-93e2-4a44-a707-f8e43b7dc956</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Daftar']/parent::*</value>
+      <webElementGuid>f8fc7f2e-2e85-42fd-9fe6-21df89f6fd27</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '/profile')])[2]</value>
-      <webElementGuid>7b280f59-3b72-473a-8f09-05e3b7141ca7</webElementGuid>
+      <value>//a[contains(@href, '/sign-up')]</value>
+      <webElementGuid>b366a47b-e04e-4efb-ac8b-093464b8b714</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[2]/a</value>
-      <webElementGuid>21aa798c-0b95-43ec-8e8e-1d5cd2ec9bf7</webElementGuid>
+      <value>//div[4]/div/a[2]</value>
+      <webElementGuid>44fc2843-fb4b-4469-b1ff-7c0b79eb5439</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/profile' and (text() = 'Data Akun' or . = 'Data Akun')]</value>
-      <webElementGuid>b33768c7-a9fe-40d0-becb-76f3dbdb7e73</webElementGuid>
+      <value>//a[@href = '/sign-up' and (text() = 'Daftar ' or . = 'Daftar ')]</value>
+      <webElementGuid>854c6902-5435-4ee9-b2bb-53b374b2910b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>73681fbf-7108-4f0a-9fa4-015ca0decb9f</webElementGuid>
+      <webElementGuid>a2087047-827a-453c-bcf4-0952d9fe401a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#section-lihat-program</value>
-      <webElementGuid>6e2f164f-d6d8-44ee-aa5c-447d744b38eb</webElementGuid>
+      <webElementGuid>c342b9d1-4ac6-464b-be57-0aa8d17e3066</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>max-w-[165px] items-center justify-center text-base font-bold transition delay-75 bg-white rounded-md text-cerulean-600 py-3 px-6 hover:bg-cerulean-100 hover:ring-cerulean-600</value>
-      <webElementGuid>a9842c14-bb20-417b-85f1-3eed98a83b52</webElementGuid>
+      <webElementGuid>1ea8416e-ea3f-4a1a-bd8b-cca908ba61cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Lihat Program</value>
-      <webElementGuid>f729014b-9a9d-41db-93a7-a762db34dd27</webElementGuid>
+      <webElementGuid>3348e7e3-e885-49fe-aa0c-90059e5c9977</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,15 +61,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[1]/div[1]/div[@class=&quot;mx-auto pb-10 lg:pb-[108px] bg-opacity-50 mb-5&quot;]/div[@class=&quot;h-auto mx-auto&quot;]/div[@class=&quot;relative px-8 lg:px-[108px] pt-[138px] pb-6 sm:pb-[60px] lg:pt-[186px]&quot;]/div[@class=&quot;flex flex-col gap-[60px]&quot;]/div[@class=&quot;flex flex-col gap-5&quot;]/button[@class=&quot;max-w-[165px] items-center justify-center text-base font-bold transition delay-75 bg-white rounded-md text-cerulean-600 py-3 px-6 hover:bg-cerulean-100 hover:ring-cerulean-600&quot;]</value>
-      <webElementGuid>68b7c869-86ea-4e5b-a598-64ba4d5c6100</webElementGuid>
+      <webElementGuid>6e043577-709c-48b9-88ae-be62fea41d71</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/div/div/div/div/button</value>
-      <webElementGuid>1443ade8-ebe0-4cf2-be27-5a3c27c61977</webElementGuid>
+      <webElementGuid>8a16478f-b9d0-4016-ab0c-561aa0ef97f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='with Metrodata Academy'])[1]/following::button[1]</value>
-      <webElementGuid>5e5eb0bb-e89a-4310-abe4-6323ac315fa3</webElementGuid>
+      <webElementGuid>3043d7ab-f004-4720-925c-07124075f22b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pelatih &amp; Sertifikat TI'])[1]/preceding::button[1]</value>
-      <webElementGuid>6d04e2fe-447d-4c4e-a5ff-09996f61d67d</webElementGuid>
+      <webElementGuid>2d4aff45-d272-409c-82a1-2d0ca578f48a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div/div/div/button</value>
-      <webElementGuid>22be56ba-9b2b-4f64-a8ec-5d151daa8a4e</webElementGuid>
+      <webElementGuid>df2817ff-68ee-405a-b019-9b4af636a102</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@href = '#section-lihat-program' and (text() = 'Lihat Program' or . = 'Lihat Program')]</value>
-      <webElementGuid>a1e3ff23-9039-4915-b368-2685ead43672</webElementGuid>
+      <webElementGuid>1df605c3-9e43-46fa-8e02-61b9a1659edc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

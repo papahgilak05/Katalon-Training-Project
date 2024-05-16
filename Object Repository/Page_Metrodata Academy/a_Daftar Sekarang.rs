@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>f2557cca-7663-4395-aaf6-389d180d2b32</webElementGuid>
+      <webElementGuid>077ef147-e8ac-4b8e-b239-87d448219474</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>font-sans text-sm font-normal leading-[21px] text-cerulean-600</value>
-      <webElementGuid>4e465875-8dcf-4d6c-be27-04d9d9a8e442</webElementGuid>
+      <webElementGuid>d845e0d9-7569-42a9-b188-09b17dbbd6e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/sign-up</value>
-      <webElementGuid>1b350237-975a-49c0-a605-49f90ff53000</webElementGuid>
+      <webElementGuid>cc18d20d-aee2-4d21-a251-afb31491da1f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Daftar Sekarang</value>
-      <webElementGuid>1f819bcf-4c17-4ad6-9a76-78dd94717539</webElementGuid>
+      <webElementGuid>547e5ec4-bb2b-475a-bbc1-2845343fd969</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,15 +61,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;grid h-screen grid-cols-1 lg:grid-cols-2&quot;]/div[@class=&quot;flex flex-col justify-center items-center gap-10&quot;]/div[@class=&quot;flex flex-col justify-center w-screen p-8 lg:w-3/4 gap-[23px]&quot;]/form[@class=&quot;flex flex-col gap-[23px]&quot;]/span[@class=&quot;font-sans text-sm font-normal text-gray-500&quot;]/a[@class=&quot;font-sans text-sm font-normal leading-[21px] text-cerulean-600&quot;]</value>
-      <webElementGuid>d342c52d-4f9b-4d7d-a245-ffccf9477f50</webElementGuid>
+      <webElementGuid>c2b515ec-8054-4f32-9721-75534b127e72</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/div/form/span/a</value>
-      <webElementGuid>ec6afa3c-5efe-4e6d-9022-085fc14edd52</webElementGuid>
+      <webElementGuid>79cd0e01-3e5d-4765-8280-fbd6385edb8a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Daftar Sekarang')]</value>
-      <webElementGuid>f60a4192-39ca-4e77-84c7-e9307a2e9c8c</webElementGuid>
+      <webElementGuid>3f51d642-f000-46b1-bf1d-89bc4b844747</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk'])[1]/following::a[1]</value>
-      <webElementGuid>be6929aa-ec16-4181-afe5-391b5c9dc918</webElementGuid>
+      <webElementGuid>b17020c0-0287-40a4-9a56-7dd65ef650b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bridging the Digital Divide.'])[1]/preceding::a[1]</value>
-      <webElementGuid>a9cd3df5-b66c-4bc8-ad8c-1f45bdf1d786</webElementGuid>
+      <webElementGuid>f09344bc-e200-40cb-a96a-a05b8e16d00f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Daftar Sekarang']/parent::*</value>
-      <webElementGuid>721b5eb7-0dac-4008-9c26-ba59aab75442</webElementGuid>
+      <webElementGuid>e532b4e9-2d53-4c75-9411-7c6d80102e42</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/sign-up')]</value>
-      <webElementGuid>76e891b8-4400-4176-b40e-1851bd4414af</webElementGuid>
+      <webElementGuid>9bd40dc6-95c8-40b2-ae96-3d6b5e8b2848</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/a</value>
-      <webElementGuid>c2b95ac5-7808-4382-aeae-7393a69d91e1</webElementGuid>
+      <webElementGuid>4420ef9a-22a1-4068-9d79-d4c55cf98f00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/sign-up' and (text() = 'Daftar Sekarang' or . = 'Daftar Sekarang')]</value>
-      <webElementGuid>d0a49ea5-70d9-4671-85d2-ae8c7a1e8358</webElementGuid>
+      <webElementGuid>bcaa7606-8638-4e35-8892-b0cd69d50197</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
