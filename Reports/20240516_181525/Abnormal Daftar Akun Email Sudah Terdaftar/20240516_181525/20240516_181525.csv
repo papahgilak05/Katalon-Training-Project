@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Abnormal Daftar Akun Email Sudah Terdaftar,Chrome 124.0.0.0,,,16-05-2024 18:15:42,16-05-2024 18:16:16,34.459s,PASSED
+,,,,,,,
+Test Cases/Test Case 7 (Abnormal Daftar Akun Email Sudah Terdaftar),Chrome 124.0.0.0,,,16-05-2024 18:15:43,16-05-2024 18:16:16,33.541s,PASSED
+"openBrowser("""")",Chrome 124.0.0.0,,,16-05-2024 18:15:44,16-05-2024 18:15:48,4.474s,PASSED
+maximizeWindow(),Chrome 124.0.0.0,,,16-05-2024 18:15:48,16-05-2024 18:15:48,0.308s,PASSED
+"navigateToUrl(""https://metrodataacademy.id/"")",Chrome 124.0.0.0,,,16-05-2024 18:15:48,16-05-2024 18:15:50,1.821s,PASSED
+takeScreenshot(),Chrome 124.0.0.0,Berhasil Membuka Website Metrodata Academy,,16-05-2024 18:15:50,16-05-2024 18:16:04,13.821s,PASSED
+"click(findTestObject(""Object Repository/Page_Metrodata Academy/a_Daftar""))",Chrome 124.0.0.0,,,16-05-2024 18:16:04,16-05-2024 18:16:06,1.837s,PASSED
+"setText(findTestObject(""Object Repository/Page_Metrodata Academy/input__name""), ""Daftar Akun Coba"")",Chrome 124.0.0.0,,,16-05-2024 18:16:06,16-05-2024 18:16:07,0.924s,PASSED
+"setText(findTestObject(""Object Repository/Page_Metrodata Academy/input__email""), ""testdaftar@gmail.com"")",Chrome 124.0.0.0,,,16-05-2024 18:16:07,16-05-2024 18:16:08,0.904s,PASSED
+"setText(findTestObject(""Object Repository/Page_Metrodata Academy/input__password""), ""XI61MEO8PAA="")",Chrome 124.0.0.0,,,16-05-2024 18:16:08,16-05-2024 18:16:08,0.804s,PASSED
+"setText(findTestObject(""Object Repository/Page_Metrodata Academy/input__confirmpassword""), ""XI61MEO8PAA="")",Chrome 124.0.0.0,,,16-05-2024 18:16:08,16-05-2024 18:16:09,0.775s,PASSED
+"click(findTestObject(""Object Repository/Page_Metrodata Academy/input__termsCondition""))",Chrome 124.0.0.0,Klik term condition,,16-05-2024 18:16:09,16-05-2024 18:16:10,0.412s,PASSED
+"click(findTestObject(""Object Repository/Page_Metrodata Academy/button_Daftar""))",Chrome 124.0.0.0,Klik Tombol Daftar,,16-05-2024 18:16:10,16-05-2024 18:16:10,0.535s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Page_Metrodata Academy/input__email""), 5))",Chrome 124.0.0.0,,,16-05-2024 18:16:10,16-05-2024 18:16:11,0.649s,PASSED
+takeScreenshot(),Chrome 124.0.0.0,,,16-05-2024 18:16:11,16-05-2024 18:16:11,0.653s,PASSED
+delay(4),Chrome 124.0.0.0,,,16-05-2024 18:16:11,16-05-2024 18:16:16,4.090s,PASSED
+closeBrowser(),Chrome 124.0.0.0,,,16-05-2024 18:16:16,16-05-2024 18:16:16,0.506s,PASSED
