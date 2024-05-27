@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Artikel Tentang Kami,Chrome 124.0.0.0,,,17-05-2024 09:26:59,17-05-2024 09:27:15,16.343s,PASSED
+,,,,,,,
+Test Cases/Test Case 9 (Normal Artikel dan Tentang Kami),Chrome 124.0.0.0,,,17-05-2024 09:26:59,17-05-2024 09:27:15,16.078s,PASSED
+"openBrowser("""")",Chrome 124.0.0.0,,,17-05-2024 09:26:59,17-05-2024 09:27:01,2.196s,PASSED
+maximizeWindow(),Chrome 124.0.0.0,,,17-05-2024 09:27:01,17-05-2024 09:27:02,0.156s,PASSED
+"navigateToUrl(""https://metrodataacademy.id/"")",Chrome 124.0.0.0,,,17-05-2024 09:27:02,17-05-2024 09:27:04,2.144s,PASSED
+takeScreenshot(),Chrome 124.0.0.0,Halaman Metrodata,,17-05-2024 09:27:04,17-05-2024 09:27:08,4.803s,PASSED
+"click(findTestObject(""Object Repository/Page_Metrodata Academy/a_Artikel""))",Chrome 124.0.0.0,,,17-05-2024 09:27:08,17-05-2024 09:27:09,0.896s,PASSED
+takeScreenshot(),Chrome 124.0.0.0,Halaman Artikel,,17-05-2024 09:27:09,17-05-2024 09:27:11,1.299s,PASSED
+"click(findTestObject(""Object Repository/Page_Metrodata Academy/a_MARCHVELOUS   Buka Potensi Terbaik Kalian_84380c""))",Chrome 124.0.0.0,,,17-05-2024 09:27:11,17-05-2024 09:27:11,0.421s,PASSED
+takeScreenshot(),Chrome 124.0.0.0,Salah Satu Artikel,,17-05-2024 09:27:11,17-05-2024 09:27:12,0.699s,PASSED
+"click(findTestObject(""Object Repository/Page_Metrodata Academy/a_Tentang Kami""))",Chrome 124.0.0.0,,,17-05-2024 09:27:12,17-05-2024 09:27:14,1.944s,PASSED
+takeScreenshot(),Chrome 124.0.0.0,Halaman Tentang Kami,,17-05-2024 09:27:14,17-05-2024 09:27:15,0.776s,PASSED
+closeBrowser(),Chrome 124.0.0.0,,,17-05-2024 09:27:15,17-05-2024 09:27:15,0.331s,PASSED

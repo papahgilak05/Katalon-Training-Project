@@ -1,0 +1,56 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Daftar Akun,Chrome 124.0.0.0,,,17-05-2024 09:27:39,17-05-2024 09:28:41,1m - 2.448s,PASSED
+,,,,,,,
+Test Cases/Test Case 5 (Normal Daftar Akun),Chrome 124.0.0.0,,,17-05-2024 09:27:39,17-05-2024 09:28:03,23.773s,PASSED
+"openBrowser("""")",Chrome 124.0.0.0,,,17-05-2024 09:27:39,17-05-2024 09:27:42,2.226s,PASSED
+maximizeWindow(),Chrome 124.0.0.0,,,17-05-2024 09:27:42,17-05-2024 09:27:42,0.166s,PASSED
+"navigateToUrl(""https://metrodataacademy.id/"")",Chrome 124.0.0.0,,,17-05-2024 09:27:42,17-05-2024 09:27:46,4.155s,PASSED
+takeScreenshot(),Chrome 124.0.0.0,Berhasil Membuka Website Metrodata Academy,,17-05-2024 09:27:46,17-05-2024 09:27:52,6.232s,PASSED
+"click(findTestObject(""Object Repository/Page_Metrodata Academy/a_Daftar""))",Chrome 124.0.0.0,,,17-05-2024 09:27:52,17-05-2024 09:27:53,1.286s,PASSED
+"setText(findTestObject(""Object Repository/Page_Metrodata Academy/input__name""), ""Daftar Akun Coba"")",Chrome 124.0.0.0,,,17-05-2024 09:27:53,17-05-2024 09:27:54,0.779s,PASSED
+"setText(findTestObject(""Object Repository/Page_Metrodata Academy/input__email""), ""testdaftar@gmail.com"")",Chrome 124.0.0.0,,,17-05-2024 09:27:54,17-05-2024 09:27:55,0.811s,PASSED
+"setText(findTestObject(""Object Repository/Page_Metrodata Academy/input__password""), ""XI61MEO8PAA="")",Chrome 124.0.0.0,,,17-05-2024 09:27:55,17-05-2024 09:27:56,0.722s,PASSED
+"setText(findTestObject(""Object Repository/Page_Metrodata Academy/input__confirmpassword""), ""XI61MEO8PAA="")",Chrome 124.0.0.0,,,17-05-2024 09:27:56,17-05-2024 09:27:56,0.674s,PASSED
+"click(findTestObject(""Object Repository/Page_Metrodata Academy/input__termsCondition""))",Chrome 124.0.0.0,Klik term condition,,17-05-2024 09:27:56,17-05-2024 09:27:57,0.339s,PASSED
+"click(findTestObject(""Object Repository/Page_Metrodata Academy/button_Daftar""))",Chrome 124.0.0.0,Klik Tombol Daftar,,17-05-2024 09:27:57,17-05-2024 09:27:57,0.556s,PASSED
+takeScreenshot(),Chrome 124.0.0.0,,,17-05-2024 09:27:57,17-05-2024 09:27:58,1.055s,PASSED
+delay(4),Chrome 124.0.0.0,,,17-05-2024 09:27:58,17-05-2024 09:28:02,4.044s,PASSED
+closeBrowser(),Chrome 124.0.0.0,,,17-05-2024 09:28:02,17-05-2024 09:28:03,0.293s,PASSED
+,,,,,,,
+Test Cases/Test Case 6 (Abnormal Daftar Akun Validasi Field),Chrome 124.0.0.0,,,17-05-2024 09:28:03,17-05-2024 09:28:21,17.935s,PASSED
+"openBrowser("""")",Chrome 124.0.0.0,,,17-05-2024 09:28:03,17-05-2024 09:28:04,0.816s,PASSED
+maximizeWindow(),Chrome 124.0.0.0,,,17-05-2024 09:28:04,17-05-2024 09:28:04,0.150s,PASSED
+"navigateToUrl(""https://metrodataacademy.id/"")",Chrome 124.0.0.0,,,17-05-2024 09:28:04,17-05-2024 09:28:06,2.223s,PASSED
+takeScreenshot(),Chrome 124.0.0.0,Berhasil Membuka Website Metrodata Academy,,17-05-2024 09:28:06,17-05-2024 09:28:11,4.715s,PASSED
+"click(findTestObject(""Object Repository/Page_Metrodata Academy/a_Daftar""))",Chrome 124.0.0.0,,,17-05-2024 09:28:11,17-05-2024 09:28:12,0.731s,PASSED
+"name = ""Daftar Akun Coba""",Chrome 124.0.0.0,,,17-05-2024 09:28:12,17-05-2024 09:28:12,0.002s,PASSED
+"email = ""testdaftar@gmail.com""",Chrome 124.0.0.0,,,17-05-2024 09:28:12,17-05-2024 09:28:12,0.001s,PASSED
+"password = """"",Chrome 124.0.0.0,,,17-05-2024 09:28:12,17-05-2024 09:28:12,0.002s,PASSED
+"confirmPassword = ""XI61MEO8PAA=""",Chrome 124.0.0.0,,,17-05-2024 09:28:12,17-05-2024 09:28:12,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Page_Metrodata Academy/input__name""), name)",Chrome 124.0.0.0,,,17-05-2024 09:28:12,17-05-2024 09:28:12,0.687s,PASSED
+"setText(findTestObject(""Object Repository/Page_Metrodata Academy/input__email""), email)",Chrome 124.0.0.0,,,17-05-2024 09:28:12,17-05-2024 09:28:13,0.759s,PASSED
+"setText(findTestObject(""Object Repository/Page_Metrodata Academy/input__password""), password)",Chrome 124.0.0.0,,,17-05-2024 09:28:13,17-05-2024 09:28:14,0.634s,PASSED
+"setText(findTestObject(""Object Repository/Page_Metrodata Academy/input__confirmpassword""), confirmPassword)",Chrome 124.0.0.0,,,17-05-2024 09:28:14,17-05-2024 09:28:14,0.725s,PASSED
+if (name.isEmpty() || email.isEmpty() || password.isEmpty() || confirmPassword.isEmpty()),Chrome 124.0.0.0,,,17-05-2024 09:28:14,17-05-2024 09:28:14,0.014s,PASSED
+"click(findTestObject(""Object Repository/Page_Metrodata Academy/input__termsCondition""))",Chrome 124.0.0.0,Klik term condition,,17-05-2024 09:28:14,17-05-2024 09:28:15,0.390s,PASSED
+"click(findTestObject(""Object Repository/Page_Metrodata Academy/button_Daftar""))",Chrome 124.0.0.0,Klik Tombol Daftar,,17-05-2024 09:28:15,17-05-2024 09:28:15,0.555s,PASSED
+takeScreenshot(),Chrome 124.0.0.0,,,17-05-2024 09:28:15,17-05-2024 09:28:16,0.969s,PASSED
+delay(4),Chrome 124.0.0.0,,,17-05-2024 09:28:16,17-05-2024 09:28:20,4.005s,PASSED
+closeBrowser(),Chrome 124.0.0.0,,,17-05-2024 09:28:20,17-05-2024 09:28:21,0.290s,PASSED
+,,,,,,,
+Test Cases/Test Case 7 (Abnormal Daftar Akun Email Sudah Terdaftar),Chrome 124.0.0.0,,,17-05-2024 09:28:21,17-05-2024 09:28:41,20.463s,PASSED
+"openBrowser("""")",Chrome 124.0.0.0,,,17-05-2024 09:28:21,17-05-2024 09:28:22,0.818s,PASSED
+maximizeWindow(),Chrome 124.0.0.0,,,17-05-2024 09:28:22,17-05-2024 09:28:22,0.152s,PASSED
+"navigateToUrl(""https://metrodataacademy.id/"")",Chrome 124.0.0.0,,,17-05-2024 09:28:22,17-05-2024 09:28:25,2.997s,PASSED
+takeScreenshot(),Chrome 124.0.0.0,Berhasil Membuka Website Metrodata Academy,,17-05-2024 09:28:25,17-05-2024 09:28:31,6.184s,PASSED
+"click(findTestObject(""Object Repository/Page_Metrodata Academy/a_Daftar""))",Chrome 124.0.0.0,,,17-05-2024 09:28:31,17-05-2024 09:28:32,0.864s,PASSED
+"setText(findTestObject(""Object Repository/Page_Metrodata Academy/input__name""), ""Daftar Akun Coba"")",Chrome 124.0.0.0,,,17-05-2024 09:28:32,17-05-2024 09:28:33,0.779s,PASSED
+"setText(findTestObject(""Object Repository/Page_Metrodata Academy/input__email""), ""testdaftar@gmail.com"")",Chrome 124.0.0.0,,,17-05-2024 09:28:33,17-05-2024 09:28:33,0.803s,PASSED
+"setText(findTestObject(""Object Repository/Page_Metrodata Academy/input__password""), ""XI61MEO8PAA="")",Chrome 124.0.0.0,,,17-05-2024 09:28:33,17-05-2024 09:28:34,0.678s,PASSED
+"setText(findTestObject(""Object Repository/Page_Metrodata Academy/input__confirmpassword""), ""XI61MEO8PAA="")",Chrome 124.0.0.0,,,17-05-2024 09:28:34,17-05-2024 09:28:35,0.685s,PASSED
+"click(findTestObject(""Object Repository/Page_Metrodata Academy/input__termsCondition""))",Chrome 124.0.0.0,Klik term condition,,17-05-2024 09:28:35,17-05-2024 09:28:35,0.339s,PASSED
+"click(findTestObject(""Object Repository/Page_Metrodata Academy/button_Daftar""))",Chrome 124.0.0.0,Klik Tombol Daftar,,17-05-2024 09:28:35,17-05-2024 09:28:36,0.560s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Page_Metrodata Academy/input__email""), 5))",Chrome 124.0.0.0,,,17-05-2024 09:28:36,17-05-2024 09:28:36,0.525s,PASSED
+takeScreenshot(),Chrome 124.0.0.0,,,17-05-2024 09:28:36,17-05-2024 09:28:37,0.678s,PASSED
+delay(4),Chrome 124.0.0.0,,,17-05-2024 09:28:37,17-05-2024 09:28:41,4.014s,PASSED
+closeBrowser(),Chrome 124.0.0.0,,,17-05-2024 09:28:41,17-05-2024 09:28:41,0.277s,PASSED

@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Metrodata Mengajar,Chrome 124.0.0.0,,,17-05-2024 09:28:59,17-05-2024 09:30:23,1m - 24.304s,PASSED
+,,,,,,,
+Test Cases/Test Case_Metrodata Mengajar (Normal),Chrome 124.0.0.0,,,17-05-2024 09:28:59,17-05-2024 09:30:23,1m - 24.045s,PASSED
+"openBrowser("""")",Chrome 124.0.0.0,,,17-05-2024 09:29:00,17-05-2024 09:29:02,2.155s,PASSED
+maximizeWindow(),Chrome 124.0.0.0,,,17-05-2024 09:29:02,17-05-2024 09:29:02,0.176s,PASSED
+"navigateToUrl(""https://metrodataacademy.id/"")",Chrome 124.0.0.0,,,17-05-2024 09:29:02,17-05-2024 09:29:04,2.422s,PASSED
+takeScreenshot(),Chrome 124.0.0.0,Berhasil Membuka Website Metrodata Academy,,17-05-2024 09:29:04,17-05-2024 09:29:09,4.490s,PASSED
+"click(findTestObject(""Object Repository/Page_Metrodata Academy/a_Masuk""))",Chrome 124.0.0.0,,,17-05-2024 09:29:09,17-05-2024 09:29:41,31.876s,PASSED
+"setText(findTestObject(""Object Repository/Page_Metrodata Academy/input__email""), ""papahgilak@gmail.com"")",Chrome 124.0.0.0,,,17-05-2024 09:29:41,17-05-2024 09:29:42,0.709s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Metrodata Academy/input__password""), ""ANgLrNN9LeX238E+iUxpGw=="")",Chrome 124.0.0.0,,,17-05-2024 09:29:42,17-05-2024 09:29:42,0.506s,PASSED
+"click(findTestObject(""Object Repository/Page_Metrodata Academy/button_Masuk""))",Chrome 124.0.0.0,,,17-05-2024 09:29:42,17-05-2024 09:29:42,0.314s,PASSED
+delay(3),Chrome 124.0.0.0,,,17-05-2024 09:29:42,17-05-2024 09:29:45,3.047s,PASSED
+"if (verifyTextPresent(""Lihat Program"", false))",Chrome 124.0.0.0,,,17-05-2024 09:29:45,17-05-2024 09:29:50,4.859s,PASSED
+"click(findTestObject(""Object Repository/Page_MetrodataMengajar/span_Program""))",Chrome 124.0.0.0,,,17-05-2024 09:29:50,17-05-2024 09:29:51,0.338s,PASSED
+takeScreenshot(),Chrome 124.0.0.0,Klik Button Program,,17-05-2024 09:29:51,17-05-2024 09:29:51,0.610s,PASSED
+delay(1),Chrome 124.0.0.0,,,17-05-2024 09:29:51,17-05-2024 09:29:52,1.007s,PASSED
+"click(findTestObject(""Object Repository/Page_MetrodataMengajar/span_Metrodata Mengajar_absolute inset-0""))",Chrome 124.0.0.0,,,17-05-2024 09:29:52,17-05-2024 09:29:55,3.240s,PASSED
+takeScreenshot(),Chrome 124.0.0.0,Pilih Menu Mentrodata Mengajar,,17-05-2024 09:29:55,17-05-2024 09:29:56,0.891s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_MetrodataMengajar/h1_Acara di Metrodata Mengajar""), 10)",Chrome 124.0.0.0,,,17-05-2024 09:29:56,17-05-2024 09:29:57,0.340s,PASSED
+delay(2),Chrome 124.0.0.0,,,17-05-2024 09:29:57,17-05-2024 09:29:59,2.016s,PASSED
+"click(findTestObject(""Object Repository/Page_MetrodataMengajar/a_CyberSHEcurity Empowering Women in Security""))",Chrome 124.0.0.0,,,17-05-2024 09:29:59,17-05-2024 09:29:59,0.360s,PASSED
+takeFullPageScreenshot(),Chrome 124.0.0.0,Pilih Acara di Metrodata Academy : CyberSHEcurity: Empowering Women in Security,,17-05-2024 09:29:59,17-05-2024 09:30:03,4.186s,PASSED
+delay(1),Chrome 124.0.0.0,,,17-05-2024 09:30:03,17-05-2024 09:30:04,1.012s,PASSED
+"click(findTestObject(""Object Repository/Page_MetrodataMengajar/button_Daftar""))",Chrome 124.0.0.0,,,17-05-2024 09:30:04,17-05-2024 09:30:05,0.834s,PASSED
+takeScreenshot(),Chrome 124.0.0.0,Klik Button Daftar,,17-05-2024 09:30:05,17-05-2024 09:30:06,0.879s,PASSED
+delay(2),Chrome 124.0.0.0,,,17-05-2024 09:30:06,17-05-2024 09:30:08,2.006s,PASSED
+"setText(findTestObject(""Object Repository/Page_MetrodataMengajar/input__name""), ""Tiara Andini"")",Chrome 124.0.0.0,,,17-05-2024 09:30:08,17-05-2024 09:30:09,0.641s,PASSED
+takeScreenshot(),Chrome 124.0.0.0,Input Nama Lengkap,,17-05-2024 09:30:09,17-05-2024 09:30:10,1.034s,PASSED
+"setText(findTestObject(""Object Repository/Page_MetrodataMengajar/input__email""), ""tiara_andini@gmail.com"")",Chrome 124.0.0.0,,,17-05-2024 09:30:10,17-05-2024 09:30:10,0.656s,PASSED
+takeScreenshot(),Chrome 124.0.0.0,Input Email,,17-05-2024 09:30:10,17-05-2024 09:30:11,0.835s,PASSED
+"setText(findTestObject(""Object Repository/Page_MetrodataMengajar/input__phoneNumber""), ""81209873467"")",Chrome 124.0.0.0,,,17-05-2024 09:30:11,17-05-2024 09:30:12,0.631s,PASSED
+takeScreenshot(),Chrome 124.0.0.0,Input Nomor Telepon,,17-05-2024 09:30:12,17-05-2024 09:30:13,0.816s,PASSED
+"setText(findTestObject(""Object Repository/Page_MetrodataMengajar/input__institution""), ""Metrodata"")",Chrome 124.0.0.0,,,17-05-2024 09:30:13,17-05-2024 09:30:13,0.640s,PASSED
+takeScreenshot(),Chrome 124.0.0.0,Input Perusahaan/Universitas,,17-05-2024 09:30:13,17-05-2024 09:30:14,0.828s,PASSED
+"setText(findTestObject(""Object Repository/Page_MetrodataMengajar/input__jobTitle""), ""Staff"")",Chrome 124.0.0.0,,,17-05-2024 09:30:14,17-05-2024 09:30:15,0.622s,PASSED
+takeScreenshot(),Chrome 124.0.0.0,Input Jabatan,,17-05-2024 09:30:15,17-05-2024 09:30:15,0.786s,PASSED
+"click(findTestObject(""Object Repository/Page_MetrodataMengajar/button_Submit""))",Chrome 124.0.0.0,,,17-05-2024 09:30:15,17-05-2024 09:30:16,0.351s,PASSED
+takeScreenshot(),Chrome 124.0.0.0,Klik Button Submit,,17-05-2024 09:30:16,17-05-2024 09:30:17,1.175s,PASSED
+delay(5),Chrome 124.0.0.0,,,17-05-2024 09:30:17,17-05-2024 09:30:22,5.007s,PASSED
+"Alert = findTestObject(""Object Repository/Page_MetrodataMengajar/li_Pendaftaran berhasil"")",Chrome 124.0.0.0,,,17-05-2024 09:30:22,17-05-2024 09:30:22,0.030s,PASSED
+try,Chrome 124.0.0.0,,,17-05-2024 09:30:22,17-05-2024 09:30:23,0.772s,PASSED
+closeBrowser(),Chrome 124.0.0.0,,,17-05-2024 09:30:23,17-05-2024 09:30:23,0.369s,PASSED

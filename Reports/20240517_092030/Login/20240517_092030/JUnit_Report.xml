@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="289.41" tests="5" failures="0" errors="0">
+   <testsuite name="Login" tests="5" failures="0" errors="0" time="289.41" skipped="0" timestamp="17-05-2024T09:20:39" hostname="papah - PapahGilak" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240517_092030\\Login\\20240517_092030"/>
+         <property name="logFiles" value="C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240517_092030\\Login\\20240517_092030\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240517_092030\\Login\\20240517_092030\\1715912453818.png, C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240517_092030\\Login\\20240517_092030\\1715912487367.png, C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240517_092030\\Login\\20240517_092030\\1715912489557.png, C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240517_092030\\Login\\20240517_092030\\1715912498621.png, C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240517_092030\\Login\\20240517_092030\\1715912503877.png, C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240517_092030\\Login\\20240517_092030\\1715912544015.png, C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240517_092030\\Login\\20240517_092030\\1715912578737.png, C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240517_092030\\Login\\20240517_092030\\1715912590973.png, C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240517_092030\\Login\\20240517_092030\\1715912623876.png, C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240517_092030\\Login\\20240517_092030\\1715912626633.png, C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240517_092030\\Login\\20240517_092030\\1715912638526.png, C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240517_092030\\Login\\20240517_092030\\1715912672568.png, C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240517_092030\\Login\\20240517_092030\\1715912674357.png, C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240517_092030\\Login\\20240517_092030\\1715912687543.png, C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240517_092030\\Login\\20240517_092030\\1715912721541.png, C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240517_092030\\Login\\20240517_092030\\1715912723261.png"/>
+         <property name="hostName" value="papah - PapahGilak"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Chrome 124.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.121"/>
+         <property name="sessionId" value="3f2ae2f7da2ad052748274c9c6be8e87"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Test Case 1 (Normal Login)" time="96.109" classname="Test Cases/Test Case 1 (Normal Login)" status="PASSED">
+         <system-out><![CDATA[17-05-2024T09:20:40 - [TEST_CASE][PASSED] - Test Cases/Test Case 1 (Normal Login): Test Cases/Test Case 1 (Normal Login)
+
+17-05-2024T09:20:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+17-05-2024T09:20:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-05-2024T09:20:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-05-2024T09:20:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+17-05-2024T09:20:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+17-05-2024T09:20:45 - [MESSAGE][PASSED] - Current window maximized
+
+17-05-2024T09:20:45 - [TEST_STEP][PASSED] - navigateToUrl("https://metrodataacademy.id/"): Navigate to 'https://metrodataacademy.id/' successfully
+
+17-05-2024T09:20:47 - [MESSAGE][PASSED] - Navigate to 'https://metrodataacademy.id/' successfully
+
+17-05-2024T09:20:47 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+17-05-2024T09:20:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240517_092030\\Login\\20240517_092030\\1715912453818.png]]
+
+17-05-2024T09:20:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Metrodata Academy/a_Masuk")): Object: 'Object Repository/Page_Metrodata Academy/a_Masuk' is clicked on
+
+17-05-2024T09:21:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='headlessui-dialog-panel-:ra:']/div[2]/div/div[2]/div/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+17-05-2024T09:21:26 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Metrodata Academy/a_Masuk'. Try using Self-healing.
+
+17-05-2024T09:21:26 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Metrodata Academy/a_Masuk' was broken. Propose an alternative one: '//a[@href = '/sign-in' and (text() = 'Masuk' or . = 'Masuk')]'.
+
+17-05-2024T09:21:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metrodata Academy/a_Masuk' is clicked on
+
+17-05-2024T09:21:27 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+17-05-2024T09:21:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240517_092030\\Login\\20240517_092030\\1715912487367.png]]
+
+17-05-2024T09:21:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Metrodata Academy/input__email"), "papahgilak@gmail.com"): Text 'papahgilak@gmail.com' is set on object 'Object Repository/Page_Metrodata Academy/input__email'
+
+17-05-2024T09:21:28 - [MESSAGE][PASSED] - Text 'papahgilak@gmail.com' is set on object 'Object Repository/Page_Metrodata Academy/input__email'
+
+17-05-2024T09:21:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Metrodata Academy/input__password"), "ANgLrNN9LeX238E+iUxpGw=="): Text ****** has been set on object 'Object Repository/Page_Metrodata Academy/input__password'
+
+17-05-2024T09:21:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Metrodata Academy/input__password'
+
+17-05-2024T09:21:29 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+17-05-2024T09:21:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240517_092030\\Login\\20240517_092030\\1715912489557.png]]
+
+17-05-2024T09:21:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Metrodata Academy/button_Masuk")): Object: 'Object Repository/Page_Metrodata Academy/button_Masuk' is clicked on
+
+17-05-2024T09:21:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metrodata Academy/button_Masuk' is clicked on
+
+17-05-2024T09:21:30 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+17-05-2024T09:21:34 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+17-05-2024T09:21:34 - [TEST_STEP][PASSED] - if (verifyTextPresent("Lihat Program", false)): null
+
+17-05-2024T09:21:38 - [MESSAGE][PASSED] - Text 'Lihat Program' is present on page 
+
+17-05-2024T09:21:38 - [TEST_STEP][PASSED] - logInfo("Berhasil Login" + takeScreenshot()): Berhasil LoginC:\Users\papah\git\Katalon-Training-Project\Reports\20240517_092030\Login\20240517_092030\1715912498621.png
+
+17-05-2024T09:21:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240517_092030\\Login\\20240517_092030\\1715912498621.png]]
+
+17-05-2024T09:21:39 - [MESSAGE][INFO] - Berhasil LoginC:\Users\papah\git\Katalon-Training-Project\Reports\20240517_092030\Login\20240517_092030\1715912498621.png
+
+17-05-2024T09:21:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Metrodata Academy/button_M Gilang Rizky Ramadhan")): Object: 'Object Repository/Page_Metrodata Academy/button_M Gilang Rizky Ramadhan' is clicked on
+
+17-05-2024T09:21:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metrodata Academy/button_M Gilang Rizky Ramadhan' is clicked on
+
+17-05-2024T09:21:39 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+17-05-2024T09:21:43 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+17-05-2024T09:21:43 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+17-05-2024T09:21:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240517_092030\\Login\\20240517_092030\\1715912503877.png]]
+
+17-05-2024T09:21:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Metrodata Academy/button_Keluar")): Object: 'Object Repository/Page_Metrodata Academy/button_Keluar' is clicked on
+
+17-05-2024T09:22:15 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='headlessui-disclosure-panel-:rj:']/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+17-05-2024T09:22:15 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Metrodata Academy/button_Keluar'. Try using Self-healing.
+
+17-05-2024T09:22:16 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Metrodata Academy/button_Keluar' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Akun Saya'])[1]/following::button[1]'.
+
+17-05-2024T09:22:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metrodata Academy/button_Keluar' is clicked on
+
+17-05-2024T09:22:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+17-05-2024T09:22:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Case 10 (Abnormal Login Lupa Password)" time="47.27" classname="Test Cases/Test Case 10 (Abnormal Login Lupa Password)" status="PASSED">
+         <system-out><![CDATA[17-05-2024T09:22:16 - [TEST_CASE][PASSED] - Test Cases/Test Case 10 (Abnormal Login Lupa Password): Test Cases/Test Case 10 (Abnormal Login Lupa Password)
+
+17-05-2024T09:22:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+17-05-2024T09:22:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-05-2024T09:22:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-05-2024T09:22:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+17-05-2024T09:22:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+17-05-2024T09:22:17 - [MESSAGE][PASSED] - Current window maximized
+
+17-05-2024T09:22:17 - [TEST_STEP][PASSED] - navigateToUrl("https://metrodataacademy.id/"): Navigate to 'https://metrodataacademy.id/' successfully
+
+17-05-2024T09:22:19 - [MESSAGE][PASSED] - Navigate to 'https://metrodataacademy.id/' successfully
+
+17-05-2024T09:22:20 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+17-05-2024T09:22:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240517_092030\\Login\\20240517_092030\\1715912544015.png]]
+
+17-05-2024T09:22:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Metrodata Academy/a_Masuk")): Object: 'Object Repository/Page_Metrodata Academy/a_Masuk' is clicked on
+
+17-05-2024T09:22:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='headlessui-dialog-panel-:ra:']/div[2]/div/div[2]/div/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+17-05-2024T09:22:55 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Metrodata Academy/a_Masuk'. Try using Self-healing.
+
+17-05-2024T09:22:56 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Metrodata Academy/a_Masuk' was broken. Propose an alternative one: '//a[@href = '/sign-in' and (text() = 'Masuk' or . = 'Masuk')]'.
+
+17-05-2024T09:22:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metrodata Academy/a_Masuk' is clicked on
+
+17-05-2024T09:22:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Metrodata Academy/a_Lupa Password")): Object: 'Object Repository/Page_Metrodata Academy/a_Lupa Password' is clicked on
+
+17-05-2024T09:22:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metrodata Academy/a_Lupa Password' is clicked on
+
+17-05-2024T09:22:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Metrodata Academy/input__email"), "coba.mail"): Text 'coba.mail' is set on object 'Object Repository/Page_Metrodata Academy/input__email'
+
+17-05-2024T09:22:57 - [MESSAGE][PASSED] - Text 'coba.mail' is set on object 'Object Repository/Page_Metrodata Academy/input__email'
+
+17-05-2024T09:22:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Metrodata Academy/button_Atur_Ulang")): Object: 'Object Repository/Page_Metrodata Academy/button_Atur_Ulang' is clicked on
+
+17-05-2024T09:22:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metrodata Academy/button_Atur_Ulang' is clicked on
+
+17-05-2024T09:22:58 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+17-05-2024T09:22:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240517_092030\\Login\\20240517_092030\\1715912578737.png]]
+
+17-05-2024T09:22:59 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+17-05-2024T09:23:03 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+17-05-2024T09:23:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+17-05-2024T09:23:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Case 11 (Abnormal Login Validasi Field)" time="47.635" classname="Test Cases/Test Case 11 (Abnormal Login Validasi Field)" status="PASSED">
+         <system-out><![CDATA[17-05-2024T09:23:03 - [TEST_CASE][PASSED] - Test Cases/Test Case 11 (Abnormal Login Validasi Field): Test Cases/Test Case 11 (Abnormal Login Validasi Field)
+
+17-05-2024T09:23:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+17-05-2024T09:23:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-05-2024T09:23:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-05-2024T09:23:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+17-05-2024T09:23:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+17-05-2024T09:23:04 - [MESSAGE][PASSED] - Current window maximized
+
+17-05-2024T09:23:04 - [TEST_STEP][PASSED] - navigateToUrl("https://metrodataacademy.id/"): Navigate to 'https://metrodataacademy.id/' successfully
+
+17-05-2024T09:23:06 - [MESSAGE][PASSED] - Navigate to 'https://metrodataacademy.id/' successfully
+
+17-05-2024T09:23:06 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+17-05-2024T09:23:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240517_092030\\Login\\20240517_092030\\1715912590973.png]]
+
+17-05-2024T09:23:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Metrodata Academy/a_Masuk")): Object: 'Object Repository/Page_Metrodata Academy/a_Masuk' is clicked on
+
+17-05-2024T09:23:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='headlessui-dialog-panel-:ra:']/div[2]/div/div[2]/div/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+17-05-2024T09:23:42 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Metrodata Academy/a_Masuk'. Try using Self-healing.
+
+17-05-2024T09:23:43 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Metrodata Academy/a_Masuk' was broken. Propose an alternative one: '//a[@href = '/sign-in' and (text() = 'Masuk' or . = 'Masuk')]'.
+
+17-05-2024T09:23:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metrodata Academy/a_Masuk' is clicked on
+
+17-05-2024T09:23:43 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+17-05-2024T09:23:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240517_092030\\Login\\20240517_092030\\1715912623876.png]]
+
+17-05-2024T09:23:44 - [TEST_STEP][PASSED] - email = "testdaftar@gmail.com": null
+
+17-05-2024T09:23:44 - [TEST_STEP][PASSED] - password = "": null
+
+17-05-2024T09:23:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Metrodata Academy/input__email"), email): Text 'testdaftar@gmail.com' is set on object 'Object Repository/Page_Metrodata Academy/input__email'
+
+17-05-2024T09:23:45 - [MESSAGE][PASSED] - Text 'testdaftar@gmail.com' is set on object 'Object Repository/Page_Metrodata Academy/input__email'
+
+17-05-2024T09:23:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Metrodata Academy/input__password"), password): Text '' is set on object 'Object Repository/Page_Metrodata Academy/input__password'
+
+17-05-2024T09:23:45 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Metrodata Academy/input__password'
+
+17-05-2024T09:23:45 - [TEST_STEP][PASSED] - if (email.isEmpty() || password.isEmpty()): null
+
+17-05-2024T09:23:45 - [TEST_STEP][PASSED] - println("Error: Ada field yang kosong!"): null
+
+17-05-2024T09:23:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Metrodata Academy/button_Masuk")): Object: 'Object Repository/Page_Metrodata Academy/button_Masuk' is clicked on
+
+17-05-2024T09:23:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metrodata Academy/button_Masuk' is clicked on
+
+17-05-2024T09:23:46 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+17-05-2024T09:23:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240517_092030\\Login\\20240517_092030\\1715912626633.png]]
+
+17-05-2024T09:23:47 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+17-05-2024T09:23:51 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+17-05-2024T09:23:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+17-05-2024T09:23:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Case 4 (Abnormal Login Pass Tidak Sesuai)" time="49.021" classname="Test Cases/Test Case 4 (Abnormal Login Pass Tidak Sesuai)" status="PASSED">
+         <system-out><![CDATA[17-05-2024T09:23:51 - [TEST_CASE][PASSED] - Test Cases/Test Case 4 (Abnormal Login Pass Tidak Sesuai): Test Cases/Test Case 4 (Abnormal Login Pass Tidak Sesuai)
+
+17-05-2024T09:23:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+17-05-2024T09:23:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-05-2024T09:23:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-05-2024T09:23:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+17-05-2024T09:23:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+17-05-2024T09:23:52 - [MESSAGE][PASSED] - Current window maximized
+
+17-05-2024T09:23:52 - [TEST_STEP][PASSED] - navigateToUrl("https://metrodataacademy.id/"): Navigate to 'https://metrodataacademy.id/' successfully
+
+17-05-2024T09:23:54 - [MESSAGE][PASSED] - Navigate to 'https://metrodataacademy.id/' successfully
+
+17-05-2024T09:23:54 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+17-05-2024T09:23:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240517_092030\\Login\\20240517_092030\\1715912638526.png]]
+
+17-05-2024T09:23:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Metrodata Academy/a_Masuk")): Object: 'Object Repository/Page_Metrodata Academy/a_Masuk' is clicked on
+
+17-05-2024T09:24:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='headlessui-dialog-panel-:ra:']/div[2]/div/div[2]/div/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+17-05-2024T09:24:30 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Metrodata Academy/a_Masuk'. Try using Self-healing.
+
+17-05-2024T09:24:30 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Metrodata Academy/a_Masuk' was broken. Propose an alternative one: '//a[@href = '/sign-in' and (text() = 'Masuk' or . = 'Masuk')]'.
+
+17-05-2024T09:24:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metrodata Academy/a_Masuk' is clicked on
+
+17-05-2024T09:24:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Metrodata Academy/input__email"), "papahgilak@gmail.com"): Text 'papahgilak@gmail.com' is set on object 'Object Repository/Page_Metrodata Academy/input__email'
+
+17-05-2024T09:24:31 - [MESSAGE][PASSED] - Text 'papahgilak@gmail.com' is set on object 'Object Repository/Page_Metrodata Academy/input__email'
+
+17-05-2024T09:24:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Metrodata Academy/input__password"), "4VRtK9SyQCROImfHX7yNDFtP+dE0BemFQA7XPsqhpiElUv38N1rW0A=="): Text ****** has been set on object 'Object Repository/Page_Metrodata Academy/input__password'
+
+17-05-2024T09:24:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Metrodata Academy/input__password'
+
+17-05-2024T09:24:32 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+17-05-2024T09:24:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240517_092030\\Login\\20240517_092030\\1715912672568.png]]
+
+17-05-2024T09:24:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Metrodata Academy/button_Masuk")): Object: 'Object Repository/Page_Metrodata Academy/button_Masuk' is clicked on
+
+17-05-2024T09:24:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metrodata Academy/button_Masuk' is clicked on
+
+17-05-2024T09:24:33 - [TEST_STEP][PASSED] - if (verifyTextPresent("Try Again", false)): null
+
+17-05-2024T09:24:34 - [MESSAGE][PASSED] - Text 'Try Again' is present on page 
+
+17-05-2024T09:24:34 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+17-05-2024T09:24:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240517_092030\\Login\\20240517_092030\\1715912674357.png]]
+
+17-05-2024T09:24:34 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+17-05-2024T09:24:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+17-05-2024T09:24:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Metrodata Academy/button_Try Again")): Object: 'Object Repository/Page_Metrodata Academy/button_Try Again' is clicked on
+
+17-05-2024T09:24:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metrodata Academy/button_Try Again' is clicked on
+
+17-05-2024T09:24:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+17-05-2024T09:24:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Case 8 (Abnormal Login Email Tidak Sesuai)" time="48.878" classname="Test Cases/Test Case 8 (Abnormal Login Email Tidak Sesuai)" status="PASSED">
+         <system-out><![CDATA[17-05-2024T09:24:40 - [TEST_CASE][PASSED] - Test Cases/Test Case 8 (Abnormal Login Email Tidak Sesuai): Test Cases/Test Case 8 (Abnormal Login Email Tidak Sesuai)
+
+17-05-2024T09:24:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+17-05-2024T09:24:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-05-2024T09:24:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-05-2024T09:24:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+17-05-2024T09:24:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+17-05-2024T09:24:41 - [MESSAGE][PASSED] - Current window maximized
+
+17-05-2024T09:24:41 - [TEST_STEP][PASSED] - navigateToUrl("https://metrodataacademy.id/"): Navigate to 'https://metrodataacademy.id/' successfully
+
+17-05-2024T09:24:44 - [MESSAGE][PASSED] - Navigate to 'https://metrodataacademy.id/' successfully
+
+17-05-2024T09:24:44 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+17-05-2024T09:24:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240517_092030\\Login\\20240517_092030\\1715912687543.png]]
+
+17-05-2024T09:24:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Metrodata Academy/a_Masuk")): Object: 'Object Repository/Page_Metrodata Academy/a_Masuk' is clicked on
+
+17-05-2024T09:25:19 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='headlessui-dialog-panel-:ra:']/div[2]/div/div[2]/div/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+17-05-2024T09:25:19 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Metrodata Academy/a_Masuk'. Try using Self-healing.
+
+17-05-2024T09:25:19 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Metrodata Academy/a_Masuk' was broken. Propose an alternative one: '//a[@href = '/sign-in' and (text() = 'Masuk' or . = 'Masuk')]'.
+
+17-05-2024T09:25:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metrodata Academy/a_Masuk' is clicked on
+
+17-05-2024T09:25:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Metrodata Academy/input__email"), "papahgil@gmail.com"): Text 'papahgil@gmail.com' is set on object 'Object Repository/Page_Metrodata Academy/input__email'
+
+17-05-2024T09:25:20 - [MESSAGE][PASSED] - Text 'papahgil@gmail.com' is set on object 'Object Repository/Page_Metrodata Academy/input__email'
+
+17-05-2024T09:25:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Metrodata Academy/input__password"), "ANgLrNN9LeX238E+iUxpGw=="): Text ****** has been set on object 'Object Repository/Page_Metrodata Academy/input__password'
+
+17-05-2024T09:25:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Metrodata Academy/input__password'
+
+17-05-2024T09:25:21 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+17-05-2024T09:25:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240517_092030\\Login\\20240517_092030\\1715912721541.png]]
+
+17-05-2024T09:25:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Metrodata Academy/button_Masuk")): Object: 'Object Repository/Page_Metrodata Academy/button_Masuk' is clicked on
+
+17-05-2024T09:25:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metrodata Academy/button_Masuk' is clicked on
+
+17-05-2024T09:25:22 - [TEST_STEP][PASSED] - if (verifyTextPresent("Try Again", false)): null
+
+17-05-2024T09:25:23 - [MESSAGE][PASSED] - Text 'Try Again' is present on page 
+
+17-05-2024T09:25:23 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+17-05-2024T09:25:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\papah\\git\\Katalon-Training-Project\\Reports\\20240517_092030\\Login\\20240517_092030\\1715912723261.png]]
+
+17-05-2024T09:25:23 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+17-05-2024T09:25:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+17-05-2024T09:25:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Metrodata Academy/button_Try Again")): Object: 'Object Repository/Page_Metrodata Academy/button_Try Again' is clicked on
+
+17-05-2024T09:25:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metrodata Academy/button_Try Again' is clicked on
+
+17-05-2024T09:25:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+17-05-2024T09:25:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[17-05-2024T09:20:39 - [TEST_SUITE][PASSED] - Login: Test Cases/Test Case 8 (Abnormal Login Email Tidak Sesuai)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
